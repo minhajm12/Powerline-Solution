@@ -6,7 +6,8 @@ $('.services').owlCarousel({
     nav:false,
     responsive:{
         0:{
-            items:1
+            items:1,
+            autoplayTimeout:1500
         },
         600:{
             items:2
