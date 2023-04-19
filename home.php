@@ -27,281 +27,7 @@
 
     <div id="main">
 
-        <header id="header">
-
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- Container wrapper -->
-                <div class="container-fluid">
-
-                    <div class="logo-div">
-                        <a href="">
-                            <img src="assets/img/logo.gif" class="img-fluid" alt="">
-                        </a>
-                    </div>
-
-                    <!-- Toggle button -->
-                    <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample4" aria-controls="navbarExample4" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa-solid fa-bars-staggered"></i>
-                    </button>
-
-                    <!-- Collapsible wrapper -->
-                    <div class="collapse navbar-collapse" id="navbarExample4">
-                        <!-- Left links -->
-                        <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <!-- Navbar dropdown -->
-                            <li class="nav-item dropdown position-static">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Products
-                                </a>
-                                <!-- Dropdown menu -->
-                                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6 col-xl-4 mb-3 mb-xl-0 first-col">
-                                                <div class="pt-2">
-                                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4" data-bs-ripple-color="light">
-                                                        <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid" />
-                                                        <a href="#!">
-                                                            <div class="mask"></div>
-                                                        </a>
-                                                    </div>
-                                                    <a href="" class="text-white">
-                                                        <h5>This is title of the news</h5>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet
-                                                            consectetur adipisicing elit.
-                                                            Odit, iste aliquid. Sed id nihil
-                                                            magni, sint vero
-                                                        </p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-6 col-xl-3 mb-3 mb-xl-0">
-                                                <div class="pt-2">
-                                                    <p class="text-uppercase font-weight-bold">
-                                                        Explicabo voluptas
-                                                    </p>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/power-lines.jpg" class="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/hydraulics.jpeg" class="img-fluid shadow-1-strong rounded" alt="Palm Springs" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Los Angeles Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div> -->
-                                            <div class="col-md-6 col-xl-3 mb-3 mb-md-0 scnd-col">
-                                                <div class="list-group list-group-flush">
-                                                    <p class="mb-0 list-group-item text-uppercase font-weight-bold">
-                                                        Our Products
-                                                    </p>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Senetry Equipment Corp </a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Tuthill</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Klaus Union</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Bernard Controls</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>FTI</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Edward Vaccum Solutions</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Blackmer - PSG Dover</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Ebsray - PSG Dover</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-xl-5 third-col">
-                                                <div class="list-group list-group-flush">
-                                                    <p class="mt-2 list-group-item text-uppercase font-weight-bold"></p>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Milton Roy</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Griswold - Psg Dover</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Mouvex - Psg Dover</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Argal Pumps</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown position-static">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Business Solution
-                                </a>
-                                <!-- Dropdown menu -->
-                                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6 col-xl-4 mb-3 mb-xl-0 first-col bsnss">
-                                                <div class="pt-2">
-                                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4" data-bs-ripple-color="light">
-                                                        <img src="assets/img/mega-menu/hydraulics.jpeg" class="img-fluid" />
-                                                        <a href="#!">
-                                                            <div class="mask"></div>
-                                                        </a>
-                                                    </div>
-                                                    <a href="" class="text-white">
-                                                        <h5>This is title of the news</h5>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet
-                                                            consectetur adipisicing elit.
-                                                            Odit, iste aliquid. Sed id nihil
-                                                            magni, sint vero
-                                                        </p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-6 col-xl-3 mb-3 mb-xl-0">
-                                                <div class="pt-2">
-                                                    <p class="text-uppercase font-weight-bold">
-                                                        Explicabo voluptas
-                                                    </p>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/power-lines.jpg" class="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/hydraulics.jpeg" class="img-fluid shadow-1-strong rounded" alt="Palm Springs" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Los Angeles Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div> -->
-                                            <div class="col-md-6 col-xl-8 mb-3 mb-md-0 scnd-col">
-                                                <div class="list-group list-group-flush">
-                                                    <p class="mb-0 list-group-item text-uppercase font-weight-bold">
-                                                        Our Products
-                                                    </p>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>EPC </a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Automation</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Drives</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Power Backup</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Power System Services</a>
-                                                    <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Hydraulics And fa-pencilumatics</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Career</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-
-                        </ul>
-                        <!-- Left links -->
-                    </div>
-
-                    <div class="country-change-icon">
-                        <a href="#">
-                            <i class="fa-solid fa-earth-americas"></i>
-                        </a>
-                    </div>
-                    <!-- Collapsible wrapper -->
-                </div>
-                <!-- Container wrapper -->
-            </nav>
-        </header>
+        <?php include 'inc/header.php'; ?>
 
         <div id="banner">
             <div class="container">
@@ -346,7 +72,7 @@
                 <h2 class="main-head mx-2">Our Services</h2>
                 <div class="services owl-carousel">
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/epc.jpg" alt="">
                         <div class="card-details">
                             <h2>EPC</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
@@ -362,7 +88,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-2.jpg" alt="">
+                        <img src="assets/img/service-img/power-backup.jpg" alt="">
                         <div class="card-details">
                             <h2>Power Backup</h2>
                             <p>Experts in Base design to commissioning for Batteries, Rectifiers & Chargers, UPS.</p>
@@ -370,7 +96,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/power-systems.jpg" alt="">
                         <div class="card-details">
                             <h2>Power System Services</h2>
                             <p>Professionals in design, retrofitting, upgradation, Preventive Maintenance, Trouble Shooting, Testing & commissioning of Electrical Systems including Switchgears, Relays & Transformers.</p>
@@ -378,7 +104,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/hydraulics.webp" alt="">
                         <div class="card-details">
                             <h2>Hydraulics and Pneumatics</h2>
                             <p>Highly reliable hydraulic & pneumatic products and services at a competitive price and fastest possible time.</p>
@@ -386,7 +112,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/oil-and-gas.jpg" alt="">
                         <div class="card-details">
                             <h2>Oil & Gas</h2>
                             <p>World class branded products & services for various specialized pumps & Blowers.</p>
@@ -394,7 +120,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/polymer-division1.jpg" alt="">
                         <div class="card-details">
                             <h2>Polymer And Rubber</h2>
                             <p>One of the leading distributor of all types of rubber products as per standards and customer requirements.</p>
@@ -402,7 +128,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/power-quality.jpg" alt="">
                         <div class="card-details">
                             <h2>Power Quality</h2>
                             <p>With Extensive experience and proficiency in the field of Power Quality, offers a full spectrum of Power Quality services and products.</p>
@@ -418,7 +144,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/industrial-drives.jpg" alt="">
                         <div class="card-details">
                             <h2>Industrial Drives</h2>
                             <p>Solution provider for any design, rectification, troubleshooting, training, testing & commissioning in MV/LV AC & DC Drives.</p>
@@ -426,7 +152,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/service-card-1.jpg" alt="">
+                        <img src="assets/img/service-img/medical-division.jpg" alt="">
                         <div class="card-details">
                             <h2>Medical Division</h2>
                             <p>At the forefront in delivering the best Medical technologies by partnering with innovative companies to provide the modern health care services. We have the potential to transform the invention as well as generate innovative solutions beyond the standard of care.</p>
@@ -437,6 +163,61 @@
             </div>
         </section>
         <!-- SERVICE SECTION END -->
+
+        <!-- CALL ACTION SECTION -->
+        <section id="first-cta">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel iusto praesentium reprehenderit quo, accusamus deserunt ipsa!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="assets/img/service-card-1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CALL ACTION SECTION END -->
+
+        <!-- CLIENTS SECTION -->
+        <section id="productssection">
+            <div class="container">
+                <h2 class="main-head mx-2">Our Products</h2>
+                <div class="products owl-carousel">
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/senetry.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Sentry Equipment Corp</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/tuthill.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Sentry Equipment Corp</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Sentry Equipment Corp</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CLIENTS SECTION END -->
 
     </div>
 
