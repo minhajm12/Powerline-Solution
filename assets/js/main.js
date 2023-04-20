@@ -31,7 +31,7 @@ $('.products').owlCarousel({
     loop:true,
     margin:20,
    autoplay:true,
-   autoplayTimeout:000,
+   autoplayTimeout:2000,
     nav:false,
     responsive:{
         0:{

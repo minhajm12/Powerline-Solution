@@ -166,15 +166,17 @@
 
         <!-- CALL ACTION SECTION -->
         <section id="first-cta">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="cta-box">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel iusto praesentium reprehenderit quo, accusamus deserunt ipsa!</p>
+                        <div class="col-lg-6 col-md-6 col-12 left">
+
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <img src="assets/img/service-card-1.jpg" class="img-fluid" alt="">
+                        <div class="col-lg-6 col-md-6 col-12 right">
+                            <!-- <img src="assets/img/service-card-1.jpg" class="img-fluid" alt=""> -->
+                            <h3>Connect With Us</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel iusto praesentium reprehenderit quo, accusamus deserunt ipsa!</p>
+                            <button>Enquire Now</button>
                         </div>
                     </div>
                 </div>
@@ -194,6 +196,7 @@
                         <div class="prdct-details">
                             <h2>Sentry Equipment Corp</h2>
                             <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
                         </div>
                     </div>
                     <div class="items">
@@ -201,8 +204,9 @@
                             <img src="assets/img/porducts-img/tuthill.jpg" alt="">
                         </div>
                         <div class="prdct-details">
-                            <h2>Sentry Equipment Corp</h2>
+                            <h2>Tuthill</h2>
                             <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
                         </div>
                     </div>
                     <div class="items">
@@ -210,8 +214,69 @@
                             <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
                         </div>
                         <div class="prdct-details">
-                            <h2>Sentry Equipment Corp</h2>
+                            <h2>Klaus Union</h2>
                             <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Bernard Controls</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>FTI</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Edwards Vaccum Solutions</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Blackmer PSG Dover</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Ebsray PSG Dover</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="img-div">
+                            <img src="assets/img/porducts-img/klaus-union.jpg" alt="">
+                        </div>
+                        <div class="prdct-details">
+                            <h2>Milton Roy</h2>
+                            <p>In power plant/process industry, we have typical products of sampling equipment forsampling and water/steam monitoring system. Our brand is Sentry.</p>
+                            <a href="" class="prdct-card">View Product</a>
                         </div>
                     </div>
                 </div>
@@ -219,6 +284,94 @@
         </section>
         <!-- CLIENTS SECTION END -->
 
+        <!-- WHY CHOOSE SECTION -->
+        <section id="whychoose">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 left">
+                        <p class="top-head">Why Choose</p>
+                        <h1 class="main-head">Powerline Solutions</h1>
+                        <p class="content-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, quas nihil doloribus perferendis, deserunt nesciunt at ad neque, voluptatem qui tempora quo officiis labore perspiciatis suscipit quod deleniti asperiores iure vel numquam odit ab aliquam ut consequuntur. Harum, tempora quos!</p>
+                    </div>
+                    <div class="col-lg-6 right">
+                        <div class="img-div">
+                            <img src="assets/img/whychoose-1.png" class="img-fluid why-img-1" alt="">
+                            <img src="assets/img/whychoose-2.png" class="img-fluid why-img-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WHY CHOOSE SECTION -->
+
+        <!-- CONTACT SECTION -->
+        <section id="contactsection">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Contact With us for More Information</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione dolorem deserunt quas blanditiis voluptate doloribus, voluptatum quaerat cupiditate magnam?</p>
+                    <a href="" class="contact-btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION END -->
+
+        <!-- FOOTER SECTION -->
+        <section id="footersection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="assets/img/logo.gif" class="img-fluid footer-logo" alt="" width="50%">
+                    </div>
+                    <div class="col-lg-2 links">
+                        <h2>Usefull Links</h2>
+                        <ul>
+                            <li>Home</li>
+                            <li>Projects</li>
+                            <li>Business Solution</li>
+                            <li>Products</li>
+                            <li>About</li>
+                            <li>Career</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 location">
+                        <h2>Location</h2>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <p>Office No.606, 6 th Floor,<br>Building No-100,<br>Markaz Al-Mana Building, Al Matar Street, P.O Box # 203357 Doha, State of Qatar</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 contact">
+                        <h2>Contact</h2>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>gerard@powerlinesolutions.com</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>salesqa@powerlinesolutions.com</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+974 6690 8935</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+974 4431 1798</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+974 4418 1791</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© Copyright Powerline Solutions Qatar All right reserved.</p>
+            </div>
+        </section>
+        <!-- FOOTER SECTION END -->
     </div>
 
 

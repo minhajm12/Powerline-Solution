@@ -310,6 +310,7 @@ p
     background-size: 100% auto;
     margin-top:8px;
     transition: .3s ease;
+    box-shadow: 4px 4px 20px #25aae182;
 }
 .main-btn:hover
 {
@@ -321,7 +322,8 @@ p
 /* SERVICE SECTION */
 #servicesection
 {
-    padding:5% 0;
+    padding:0 0 5% 0;
+
 }
 #servicesection .service-cards
 {
@@ -397,18 +399,54 @@ p
 /* CALL ACTION SECTION */
 #first-cta
 {
-    padding:2% 0;
+    padding:0 0 5% 0;
+
+}
+#first-cta .container-fluid
+{
+    padding:0;
 }
 #first-cta .cta-box
 {
-    background: var(--logo1);
-    padding:30px;
-    border-radius: 20px;
+    background-image:url(../img/cta-bg.jpg) ;
+    background-size: cover;
+    background-position:center center;
+    padding:140px 20px;
+    /* border-radius: 20px; */
+}
+#first-cta .cta-box .right
+{
+    padding-right:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+#first-cta .cta-box .right button
+{
+    padding:10px 30px;
+    font-size:18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: fit-content;
+    transition: .3s ease;
+    /* border-radius: 5px; */
+}
+#first-cta .cta-box .right button:hover
+{
+    background:var(--logo2);
+    color:#fff;
 }
 #first-cta .cta-box h3
 {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+#first-cta .cta-box p
+{
+    color:#fff;
 }
 
 
@@ -419,26 +457,57 @@ p
 /* PRODUCT SECTION */
 #productssection
 {
-    padding:5% 0;
+    padding:0 0 5% 0;
+
 }
 #productssection .products .items
 {
-    background:var(--textcolor);    
+    /* background:var(--textcolor); */
+    border-radius: 10px;
+}
+#productssection .img-div
+{
+    padding:10px;
 }
 #productssection .products .items .prdct-details h2
 {
     font-size: 24px;
     font-weight: 600;
     /* margin-top:20px; */
-    color:#fff;
 }
 #productssection .products .items img
 {
     box-shadow: 0 0 10px #00000010;
+    border-radius: 10px;
 }
 #productssection .products .items .prdct-details
 {
     padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#productssection .products .items .prdct-details .prdct-card
+{
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(90deg, var(--logo2
+    ), var(--logo1));
+    background-size: 100% auto;
+    margin:0;
+    text-decoration: none;
+    padding: 5px 10px;
+    width: fit-content;
+    color: #fff;
+    transition: .3s ease;
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px #25aae182;
+}
+#productssection .products .items .prdct-details .prdct-card:hover
+{
+    background-size: 200% auto;
+
 }
 #productssection .products .items .prdct-details
 p
@@ -448,10 +517,199 @@ p
     -webkit-box-orient: vertical;  
     overflow: hidden;
     font-size: 16px;
-    margin-top:10px;
-    color:#fff;
+    /* margin-top:10px; */
 }
 #productssection .owl-carousel .owl-stage
 {
-    padding: 20px 0;
+    padding: 30px 0;
+}
+
+
+
+/* WHYCHOOSE SECTION */
+#whychoose
+{
+    padding:0 0 5% 0;
+    
+}
+#whychoose .left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+#whychoose .img-div
+{
+    position: relative;
+}
+#whychoose .img-div .why-img-1
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    animation: imagemove1 6s ease-in-out infinite;
+    filter: drop-shadow(4px 4px 10px #da78076a);
+}
+#whychoose .img-div .why-img-2
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: imagemove2 6s ease-in-out infinite;
+    filter: drop-shadow(4px 4px 10px #da78076a);
+
+}
+
+@keyframes imagemove1
+{
+    0%
+    {
+      transform: translateY(0);  
+    }
+    50%
+    {
+        transform: translateY(20px);  
+    }
+    100%
+    {
+        transform: translateY(0);  
+    }
+}
+@keyframes imagemove2
+{
+    0%
+    {
+      transform: translateY(0);  
+    }
+    50%
+    {
+        transform: translateY(-20px);  
+    }
+    100%
+    {
+        transform: translateY(0);  
+    }
+}
+
+
+
+
+
+
+#contactsection
+{
+    padding: 0 0 5% 0;
+}
+#contactsection .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactsection .contact-box
+{
+    background:linear-gradient(90deg, var(--textcolor), var(--logo2));
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+    gap:15px;
+    box-shadow: 0px 0px 30px #1babe982;
+}
+#contactsection .contact-box .contact-btn
+{
+    padding:10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #fff;
+    color:var(--textcolor);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s ease;
+    color: var(--textcolor);
+}
+#contactsection .contact-box .contact-btn:hover
+{
+    background:var(--textcolor);
+    color: #fff;
+}
+#contactsection .contact-box h2
+{
+    font-size: 30px;
+    color:#fff;
+}
+#contactsection .contact-box p
+{
+    color:#fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    width: 80%;
+
+}
+
+
+#footersection
+{
+    padding:4% 0 0 0;
+    background: #f2fcff;
+}
+#footersection .footer-logo
+{
+    width: 70%;
+}
+#footersection ul
+{
+    padding: 0;
+}
+#footersection ul li
+{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#footersection h2
+{
+    font-weight: 600;
+    color: var(--textcolor);
+    font-size: 24px;
+    margin-bottom:10px;
+}
+#footersection .copyright
+{
+    background: var(--logo2);
+    padding:10px;
+    margin-top:20px;
+}
+#footersection .copyright p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+#footersection .contact div
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+#footersection .contact div i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px;
+    color: var(--textcolor);
+}
+#footersection .location div
+{
+    display: flex;
+    gap:10px;
+}
+#footersection .location div i
+{
+    display: flex;
+    margin-top:5px;
 }
