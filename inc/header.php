@@ -12,7 +12,7 @@
             </div>
 
             <!-- Toggle button -->
-            <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample4" aria-controls="navbarExample4" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample4" aria-controls="navbarExample4" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars-staggered"></i>
             </button>
 
@@ -41,7 +41,7 @@
                                                 </a>
                                             </div>
                                             <a href="" class="text-white">
-                                                <h5>This is title of the news</h5>
+                                                <h5>Our Products</h5>
                                                 <p>
                                                     Lorem ipsum dolor sit amet
                                                     consectetur adipisicing elit.
@@ -162,7 +162,7 @@
                                                 </a>
                                             </div>
                                             <a href="" class="text-white">
-                                                <h5>This is title of the news</h5>
+                                                <h5>Business Solution</h5>
                                                 <p>
                                                     Lorem ipsum dolor sit amet
                                                     consectetur adipisicing elit.
@@ -263,35 +263,45 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
 
+                    <div class="countries-list-tab">
+                        <a href="">Saudi Arabia</a>
+                        <a href="">UAE</a>
+                        <a href="">Qatar</a>
+                        <a href="">India</a>
+                    </div>
+
                 </ul>
+
+                <div class="country-change-icon">
+
+                    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </button>
+                    <ul class="dropdown-menu country-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">Saudi Arabia</a>
+                            <img src="assets/img/icons/country/saudi-arabia.png" alt="">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">UAE</a>
+                            <img src="assets/img/icons/country/united-arab-emirates.png" alt="">
+
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Qatar</a>
+                            <img src="assets/img/icons/country/qatar.png" alt="">
+
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">India</a>
+                            <img src="assets/img/icons/country/india.png" alt="">
+                        </li>
+                    </ul>
+                </div>
                 <!-- Left links -->
             </div>
 
-            <div class="country-change-icon">
-                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-earth-americas"></i>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a class="dropdown-item" href="#">Saudi Arabia</a>
-                        <img src="assets/img/icons/country/saudi-arabia.png" alt="">
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">UAE</a>
-                        <img src="assets/img/icons/country/united-arab-emirates.png" alt="">
 
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">Qatar</a>
-                        <img src="assets/img/icons/country/qatar.png" alt="">
-
-                    </li>
-                    <li>
-                        <a class="dropdown-item" href="#">India</a>
-                        <img src="assets/img/icons/country/india.png" alt="">
-                    </li>
-                </ul>
-            </div>
             <!-- Collapsible wrapper -->
         </div>
         <!-- Container wrapper -->

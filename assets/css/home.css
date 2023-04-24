@@ -50,7 +50,7 @@ p
 }
 #header .navbar .navbar-collapse
 {
-    justify-content: center;
+    justify-content: end;
 }
 #header .navbar .navbar-collapse .navbar-nav
 {
@@ -78,13 +78,15 @@ p
 {
     background: linear-gradient(90deg, var(--logo1), var(--logo2)) !important;
     overflow: hidden;
-    padding: 10px 20px;
+    padding: 10px 20px 20px;
     color: white !important;
     border-radius: 20px;
 }
 .navbar-collapse .dropdown-menu .first-col h5
 {
     color: #fff !important;
+    font-size: 24px;
+    font-weight: 600;
 }
 .navbar-collapse .dropdown-menu .first-col img
 {
@@ -105,10 +107,11 @@ p
 .navbar-collapse .dropdown-menu .scnd-col a
 {
     font-size: 14px;
+    padding:10px;
 }
 .navbar-collapse .dropdown-menu .third-col
 {
-    padding: 10px 20px;
+    padding: 30px 20px 10px 20px;
 }
 .navbar-collapse .dropdown-menu .list-group-item
 {
@@ -118,10 +121,29 @@ p
 {
     font-size: 14px;
 }
+.navbar-toggler
+{
+    padding:10px;
+    border: none;
+    outline:none;
+    box-shadow: none;
+}
+.navbar-toggler:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+
 
 .navbar-collapse .dropdown-menu .first-col.bsnss
 {
     background: linear-gradient(90deg, var(--logo1), var(--logo2)) !important;
+}
+.country-change-icon
+{
+    margin-left: 20px;
 }
 .country-change-icon i
 {
@@ -144,14 +166,18 @@ p
     background:none;
     border: none;
     outline: none;
+    margin-top: 10px;
 }
-.country-change-icon .dropdown-menu
+.country-change-icon .dropdown-menu[data-bs-popper]
 {
     border: none;
     background:#fff;
     backdrop-filter: blur(30px);
-    padding:10px;
+    padding:10px !important;
     box-shadow: 0 0 20px #00000010;
+    width: unset !important;
+    transform: unset;
+    border-radius: 10px;
 }
 .country-change-icon .dropdown-menu img
 {
@@ -166,7 +192,8 @@ p
 }
 .country-change-icon .dropdown-menu li:hover
 {
-    background:var(--logo1);
+    background: linear-gradient(45deg, var(--logo1), var(--logo2));
+    box-shadow: 2px 2px 10px #25aae163;
 }
 .country-change-icon .dropdown-menu li:hover a
 {
@@ -255,7 +282,7 @@ p
 {
     position: absolute;
     z-index: 2;
-    filter: drop-shadow(0 0 10px #090e556d);
+    filter: drop-shadow(0 0 10px #ffc3008a);
     animation: image-move 6s ease-in-out infinite;
     transform: translateY(10px);
 }
@@ -712,4 +739,63 @@ p
 {
     display: flex;
     margin-top:5px;
+}
+
+
+
+@media only screen and (max-width: 992px)
+{
+    #banner .left
+    {
+        padding:25% 0 15%
+    }
+
+
+    .countries-list-tab
+    {
+        display: flex;
+        justify-content: space-between;
+        margin:20px 0;
+    }
+    .countries-list-tab a
+    {
+        text-decoration: none;
+        color: var(--textcolor);
+        font-weight: 600;
+    }
+
+    .country-change-icon
+    {
+        display: none;
+    }
+
+    .navbar-collapse .dropdown-menu[data-bs-popper]
+    {
+        transform: unset;
+        box-shadow: none;
+        background: #eee;
+        border-radius: 0;
+        width: 100% !important;
+    }
+    .navbar-collapse .dropdown-menu .first-col
+    {
+        display: none;
+    }
+    .navbar-collapse .dropdown-menu .scnd-col
+    {
+        padding:10px;
+    }
+    .navbar-collapse .dropdown-menu .scnd-col a
+    {
+        padding:5px;
+    }
+    .navbar-collapse .dropdown-menu .third-col a,  .navbar-collapse .dropdown-menu .scnd-col a
+    {
+        background:transparent
+    }
+    .navbar-collapse .dropdown-menu .scnd-col p,
+    .navbar-collapse .dropdown-menu .third-col p
+    {
+        background: transparent;
+    }
 }

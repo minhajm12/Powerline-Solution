@@ -38,7 +38,9 @@
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis expedita maiores, doloremque delectus nesciunt.</p> -->
                         <a href="" class="main-btn">Read More</a>
                     </div>
-                    <div class="col-lg-6 right"></div>
+                    <div class="col-lg-6 right">
+                        <img src="assets/img/banner/banner-img-2.png" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,9 +14,6 @@ $('.services').owlCarousel({
         },
         1000:{
             items:3
-        },
-        1600:{
-            items:4
         }
     }
 })
@@ -43,9 +40,6 @@ $('.products').owlCarousel({
         },
         1000:{
             items:3
-        },
-        1600:{
-            items:4
         }
     }
 })
