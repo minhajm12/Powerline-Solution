@@ -263,7 +263,7 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
 
-                    <div class="countries-list-tab">
+                    <div class="countries-list-tab d-lg-none">
                         <a href="">Saudi Arabia</a>
                         <a href="">UAE</a>
                         <a href="">Qatar</a>
