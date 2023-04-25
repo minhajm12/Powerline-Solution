@@ -1,7 +1,17 @@
 <header id="header">
 
+    <!-- <div class="top-header">
+        <div class="container">
+            <div class="content">
+                <span>Certified:</span>
+                <p>ISO 9001:2015</p>
+                <p>ISO 14001:2015</p>
+                <p>ISO 45001:2018</p>
+            </div>
+        </div>
+    </div> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <!-- Container wrapper -->
         <div class="container-fluid">
 

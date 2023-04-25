@@ -32,13 +32,13 @@
         <div id="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 left">
+                    <div class="col-lg-6 left order-lg-1 order-2">
                         <p class="top-head">POWERLINE SOLUTIONS</p>
                         <h1>Join Hands with us to Make Wonders</h1>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis expedita maiores, doloremque delectus nesciunt.</p> -->
                         <a href="" class="main-btn">Read More</a>
                     </div>
-                    <div class="col-lg-6 right">
+                    <div class="col-lg-6 right order-lg-2 order-1">
                         <img src="assets/img/banner/banner-img-2.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         <div class="col-lg-6 col-md-6 col-12 right">
                             <!-- <img src="assets/img/service-card-1.jpg" class="img-fluid" alt=""> -->
                             <h3>Connect With Us</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel iusto praesentium reprehenderit quo, accusamus deserunt ipsa!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel.</p>
                             <button>Enquire Now</button>
                         </div>
                     </div>
@@ -310,8 +310,8 @@
         <section id="contactsection">
             <div class="container">
                 <div class="contact-box">
-                    <h2>Contact With us for More Information</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione dolorem deserunt quas blanditiis voluptate doloribus, voluptatum quaerat cupiditate magnam?</p>
+                    <h2>Contact us for More Information</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione</p>
                     <a href="" class="contact-btn">Contact Us</a>
                 </div>
             </div>
@@ -322,29 +322,43 @@
         <section id="footersection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 my-lg-0 my-md-0 my-4 foot-logo">
                         <img src="assets/img/logo.gif" class="img-fluid footer-logo" alt="" width="50%">
                     </div>
-                    <div class="col-lg-2 links">
+                    <div class="col-lg-2 col-md-6 my-lg-0 my-md-0 my-3 links">
                         <h2>Usefull Links</h2>
                         <ul>
-                            <li>Home</li>
-                            <li>Projects</li>
-                            <li>Business Solution</li>
-                            <li>Products</li>
-                            <li>About</li>
-                            <li>Career</li>
-                            <li>Contact Us</li>
+                            <a href="">
+                                <li>Home</li>
+                            </a>
+                            <a href="">
+                                <li>Projects</li>
+                            </a>
+                            <a href="">
+                                <li>Business Solution</li>
+                            </a>
+                            <a href="">
+                                <li>Products</li>
+                            </a>
+                            <a href="">
+                                <li>About</li>
+                            </a>
+                            <a href="">
+                                <li>Career</li>
+                            </a>
+                            <a href="">
+                                <li>Contact Us</li>
+                            </a>
                         </ul>
                     </div>
-                    <div class="col-lg-3 location">
+                    <div class="col-lg-3 col-md-6 my-lg-0 my-md-4 my-3 location">
                         <h2>Location</h2>
                         <div>
                             <i class="fa-sharp fa-solid fa-location-dot"></i>
                             <p>Office No.606, 6 th Floor,<br>Building No-100,<br>Markaz Al-Mana Building, Al Matar Street, P.O Box # 203357 Doha, State of Qatar</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 contact">
+                    <div class="col-lg-3 col-md-6 my-lg-0 my-md-4 my-3 contact">
                         <h2>Contact</h2>
                         <div>
                             <i class="fa-solid fa-envelope"></i>

@@ -36,6 +36,39 @@ p
 }
 
 /* HEADER SECTION */
+.top-header
+{
+    background:linear-gradient(90deg, var(--logo2),var(--logo1));
+    padding:8px 0;
+}
+.top-header .content
+{
+    display: flex;
+    justify-content: end;
+}
+.top-header .content p, .top-header .content span
+{
+    color:#fff;
+    margin:0;
+    font-size: 14px;
+
+}
+.top-header .content p
+{
+    padding:0 20px;
+}
+
+
+#header
+{
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+}
+#navbar
+{
+
+}
 #header .navbar
 {
     padding:10px 3%;
@@ -128,10 +161,24 @@ p
     outline:none;
     box-shadow: none;
 }
+.navbar-toggler i
+{
+    color: var(--textcolor);
+}
+.navbar-toggler i:hover
+{
+    color: var(--logo2);
+}
 .navbar-toggler:focus
 {
     outline: none !important;
     box-shadow: none;
+}
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -218,7 +265,7 @@ p
     background-image: url('../img/banner/banner-4.jpg');
     background-size: cover;
     background-position: center;
-    height: 86vh;
+    height: 100vh;
     width: 100%;
     background-attachment: fixed;
     display: flex;
@@ -474,6 +521,7 @@ p
 #first-cta .cta-box p
 {
     color:#fff;
+    width: 80%;
 }
 
 
@@ -658,16 +706,20 @@ p
     border-radius: 5px;
     transition: .3s ease;
     color: var(--textcolor);
+    box-shadow: 3px 3px 20px #ffffff99;
 }
 #contactsection .contact-box .contact-btn:hover
 {
     background:var(--textcolor);
     color: #fff;
+    box-shadow: 3px 3px 20px #25aae175;
+
 }
 #contactsection .contact-box h2
 {
     font-size: 30px;
     color:#fff;
+    font-weight: 700;
 }
 #contactsection .contact-box p
 {
@@ -692,6 +744,25 @@ p
 #footersection ul
 {
     padding: 0;
+    margin: 0;
+}
+#footersection ul a
+{
+    text-decoration: none;
+    color: var(--textcolor);
+    position: relative;
+
+}
+#footersection ul a::before
+{
+    content: '';
+    position: absolute;
+    left: -10px;
+    font: var(--fa-font-solid);
+    /* top:50%; */
+    /* width: 5px; */
+    /* height: 3px; */
+    /* background: red; */
 }
 #footersection ul li
 {
@@ -701,9 +772,21 @@ p
 #footersection h2
 {
     font-weight: 600;
-    color: var(--textcolor);
+    color: var(--logo1);
     font-size: 24px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    position: relative;
+}
+#footersection h2::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    border-radius: 20px;
+    width: 20%;
+    background: var(--logo2);
 }
 #footersection .copyright
 {
@@ -728,6 +811,16 @@ p
     align-items: center;
     justify-content: center;
     margin-right:10px;
+    color: var(--logo2);
+    transition: .3s ease;
+}
+#footersection .contact div i:hover
+{
+    color: var(--logo1);
+
+}
+#footersection .contact p
+{
     color: var(--textcolor);
 }
 #footersection .location div
@@ -739,6 +832,16 @@ p
 {
     display: flex;
     margin-top:5px;
+    color: var(--logo2);
+    transition: .3s ease;
+}
+#footersection .location p
+{
+    color: var(--textcolor);
+}
+#footersection .location div i:hover
+{
+    color: var(--logo1);
 }
 
 
@@ -747,7 +850,7 @@ p
 {
     #banner .left
     {
-        padding:25% 0 15%
+        padding:30% 0 0%
     }
 
 
@@ -797,5 +900,172 @@ p
     .navbar-collapse .dropdown-menu .third-col p
     {
         background: transparent;
+    }
+
+
+    #first-cta .cta-box
+    {
+        padding:60px 0;
+    }
+    #first-cta .cta-box p
+    {
+        width: 100%;
+    }
+
+
+    #whychoose .right
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contactsection .contact-box
+    {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    #banner .left
+    {
+        padding:20% 20px 0;
+        gap:10px;
+    }
+    #banner h1
+    {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .main-btn
+    {
+        font-size:14px;
+    }
+    .main-head
+    {
+        font-size: 30px;
+    }
+    .content-para
+    {
+        line-height: 22px;
+    }
+
+
+    #aboutsection
+    {
+        padding: 10% 0;
+    }
+    #aboutsection .left
+    {
+        padding:60px 20px;
+    }
+    #aboutsection .right
+    {
+        gap:5px;
+        padding:0 20px;
+    }
+    
+
+    #servicesection .owl-carousel .owl-stage
+    {
+        padding:10px 0;
+    }
+    #servicesection .card-details
+    {
+        padding: 0;
+    }
+
+
+
+    #first-cta
+    {
+        padding:0 0 10% 0;
+    }
+    #first-cta .cta-box
+    {
+        padding:50px 20px;
+    }
+    #first-cta .cta-box h3
+    {
+        font-size: 30px;
+    }
+    #first-cta .cta-box .right
+    {
+        gap:10px;
+        padding-right: 0px;
+    }
+    #first-cta .cta-box .right button
+    {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+
+    #productssection
+    {
+        padding:0 0 10% 0;
+    }
+    #productssection .owl-carousel .owl-stage
+    {
+        padding:10px 0;
+    }
+
+    #whychoose .left
+    {
+        padding:0 20px;
+    }
+    #whychoose .right
+    {
+        padding:40px 20px;
+    }
+
+    #contactsection .container
+    {
+        padding:0 20px;
+    }
+    #contactsection .contact-box
+    {
+        padding:30px;
+        gap:10px;
+    }
+    #contactsection .contact-box h2
+    {
+        font-size: 24px;
+        text-align: center;
+    }
+    #contactsection .contact-box p
+    {
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #contactsection .contact-box .contact-btn
+    {
+        font-size: 14px;
+        padding:5px 30px;
+    }
+    
+
+    #footersection .footer-logo
+    {
+        width: 50%;
+    }
+    #footersection .foot-logo, #footersection .links, #footersection .location, #footersection .contact
+    {
+        padding: 0 20px;
+    }
+    #footersection ul
+    {
+        margin-left: 25px;
+    }
+    #footersection .copyright p
+    {
+        font-size: 12px;
     }
 }
