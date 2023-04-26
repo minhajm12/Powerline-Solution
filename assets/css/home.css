@@ -74,6 +74,12 @@ p
     padding:10px 3%;
     display: flex;
     justify-content: space-between;
+    background: transparent;
+    /* box-shadow: 0 0 30px #00000010; */
+    transition: .3s ease;
+}
+.nav-active
+{
     background: #fff !important;
     box-shadow: 0 0 30px #00000010;
 }
@@ -187,6 +193,11 @@ p
 .navbar-collapse .dropdown-menu .first-col.bsnss
 {
     background: linear-gradient(90deg, var(--logo1), var(--logo2)) !important;
+}
+
+.countries-list-tab
+{
+    display: none;
 }
 .country-change-icon
 {
@@ -325,7 +336,7 @@ p
     justify-content: center;
     gap:10px;
 }
-.abt-img-1
+#aboutsection .abt-img-1
 {
     position: absolute;
     z-index: 2;
@@ -735,7 +746,7 @@ p
 #footersection
 {
     padding:4% 0 0 0;
-    background: #f2fcff;
+    background:linear-gradient(0deg, #e0f6ff, transparent);
 }
 #footersection .footer-logo
 {
@@ -856,15 +867,7 @@ p
 
     .countries-list-tab
     {
-        display: flex;
-        justify-content: space-between;
-        margin:20px 0;
-    }
-    .countries-list-tab a
-    {
-        text-decoration: none;
-        color: var(--textcolor);
-        font-weight: 600;
+        display: block;
     }
 
     .country-change-icon
@@ -876,7 +879,7 @@ p
     {
         transform: unset;
         box-shadow: none;
-        background: #eee;
+        background: transparent;
         border-radius: 0;
         width: 100% !important;
     }
@@ -888,18 +891,18 @@ p
     {
         padding:10px;
     }
-    .navbar-collapse .dropdown-menu .scnd-col a
-    {
-        padding:5px;
-    }
     .navbar-collapse .dropdown-menu .third-col a,  .navbar-collapse .dropdown-menu .scnd-col a
     {
-        background:transparent
+        background:transparent;
+        color: var(--logo1);
+        padding:5px;
+
     }
     .navbar-collapse .dropdown-menu .scnd-col p,
     .navbar-collapse .dropdown-menu .third-col p
     {
         background: transparent;
+        color: var(--logo1);
     }
 
 
@@ -941,6 +944,14 @@ p
     {
         font-size: 30px;
         line-height: 32px;
+    }
+    .navbar-collapse .dropdown-menu .third-col
+    {
+        padding: 0 10px;
+    }
+    .navbar-collapse .dropdown-menu .scnd-col
+    {
+        padding: 0 10px;
     }
 
     .main-btn
@@ -1068,4 +1079,175 @@ p
     {
         font-size: 12px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE STYLE */
+#about-page-banner
+{
+    height: 60vh;
+    background-image: url("../img/banner/about-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+#about-page-banner .left
+{
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#abt-contents
+{
+    padding:5% 0;
+}
+#abt-contents .left
+{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#abt-contents .left .img-div
+{
+    position: relative;
+}
+#abt-contents .left .abt-img-1
+{
+    position: relative;
+    z-index: 2;
+    animation: float 6s ease infinite;
+}
+#abt-contents .left .abt-img-2
+{
+    position: absolute;
+    left: 0;
+    animation: float 6s ease infinite;
+    animation-delay: 1000ms;
+
+}
+#abt-contents .left .abt-img-3
+{
+    position: absolute;
+    left: 0;
+    animation: float 6s ease infinite;
+    animation-delay: 2000ms;
+
+}
+#abt-contents .right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+@keyframes float
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+#abt-contents .abt-img-4
+{
+    /* animation: rotate 6s ease infinite; */
+}
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotate(1deg);
+    }
+    50%
+    {
+        transform: rotate(-1deg);
+    }
+    100%
+    {
+        transform: rotate(1deg);
+    }
+}
+
+#abt-contents .abt-cntnt .img-div
+{
+    position: relative;
+}
+#abt-contents .abt-img-4
+{
+    position: relative;
+}
+#abt-contents .abt-img-5
+{
+    position: absolute;
+    left: 0;
+}
+
+
+
+
+#objectives
+{
+    background: url('../img/about-section/mission-bg.jpg');
+    background-size:cover ;
+    background-position: left center;
+    height: 100%;
+    padding:7% 0;
+}
+#objectives .cards
+{
+    padding:20px;
+    /* background: red; */
+}
+#objectives h1
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+#objectives p
+{
+    width: 100%;
+}
+#objectives .right
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }

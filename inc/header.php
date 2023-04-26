@@ -11,7 +11,7 @@
         </div>
     </div> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <!-- Container wrapper -->
         <div class="container-fluid">
 
@@ -31,7 +31,7 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/powerline-solution/home.php">Home</a>
                     </li>
                     <!-- Navbar dropdown -->
                     <li class="nav-item dropdown position-static">
@@ -124,7 +124,7 @@
                                                     </a>
                                                 </div>
                                             </div> -->
-                                    <div class="col-md-6 col-xl-3 mb-3 mb-md-0 scnd-col">
+                                    <div class="col-md-6 col-xl-3 mb-lg-3 mb-md-0 mb-0 scnd-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Our Products
@@ -141,7 +141,7 @@
                                     </div>
                                     <div class="col-md-6 col-xl-5 third-col">
                                         <div class="list-group list-group-flush">
-                                            <p class="mt-2 list-group-item text-uppercase font-weight-bold"></p>
+                                            <p class="mt-lg-2 mt-md-2 mt-4 list-group-item text-uppercase font-weight-bold d-lg-block d-md-block d-none"></p>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Milton Roy</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Griswold - Psg Dover</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Mouvex - Psg Dover</a>
@@ -248,7 +248,7 @@
                                     <div class="col-md-6 col-xl-8 mb-3 mb-md-0 scnd-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
-                                                Our Products
+                                                Business Solution
                                             </p>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>EPC </a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Automation</a>
@@ -263,7 +263,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="/powerline-solution/about.php">About Us</a>
                     </li>
 
                     <li class="nav-item">
@@ -272,13 +272,29 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-
-                    <div class="countries-list-tab d-lg-none">
-                        <a href="">Saudi Arabia</a>
-                        <a href="">UAE</a>
-                        <a href="">Qatar</a>
-                        <a href="">India</a>
-                    </div>
+                    <li class="nav-item dropdown position-static countries-list-tab">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </a>
+                        <!-- Dropdown menu -->
+                        <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-xl-8 mb-3 mb-md-0 scnd-col">
+                                        <div class="list-group list-group-flush">
+                                            <p class="mb-0 list-group-item text-uppercase font-weight-bold">
+                                                Available Countries
+                                            </p>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Saudi Arabia</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>UAE</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Qatar</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>India</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
 
                 </ul>
 
