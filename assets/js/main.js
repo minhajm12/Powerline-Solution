@@ -1,3 +1,5 @@
+// Navbar Transparent
+
 const navbar = document.querySelector('.navbar');
 window.onscroll = () => {
     if (window.scrollY > 30) {
@@ -6,6 +8,8 @@ window.onscroll = () => {
         navbar.classList.remove('nav-active');
     }
 };
+
+
 
 
 

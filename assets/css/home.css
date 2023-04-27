@@ -99,6 +99,11 @@ p
 {
     color: var(--logo1) !important;
     font-weight: 500;
+    transition: .3s ease;
+}
+.navbar .navbar-nav .nav-link:hover
+{
+    color: var(--logo2) !important;
 }
 
 
@@ -285,7 +290,7 @@ p
 }
 #banner h1
 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
     line-height: 60px;
 }
@@ -814,7 +819,7 @@ p
 #footersection .contact div
 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #footersection .contact div i
 {
@@ -1033,17 +1038,18 @@ p
     }
     #whychoose .right
     {
-        padding:40px 20px;
+        padding:30px 20px;
     }
 
     #contactsection .container
     {
-        padding:0 20px;
+        padding:0 30px;
     }
     #contactsection .contact-box
     {
         padding:30px;
         gap:10px;
+        box-shadow: 0px 0px 20px #1babe982;
     }
     #contactsection .contact-box h2
     {
@@ -1108,11 +1114,11 @@ p
 /* ABOUT PAGE STYLE */
 #about-page-banner
 {
-    height: 60vh;
+    height: 70vh;
     background-image: url("../img/banner/about-banner.jpg");
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center top;
+    /* background-attachment: fixed; */
     display: flex;
     align-items: center;
 }
@@ -1122,6 +1128,7 @@ p
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top:40px;
 }
 
 
@@ -1229,12 +1236,18 @@ p
     background-size:cover ;
     background-position: left center;
     height: 100%;
-    padding:7% 0;
+    padding:5% 0;
+    margin:0 0 5%;
 }
 #objectives .cards
 {
     padding:20px;
     /* background: red; */
+}
+#objectives .cards img
+{
+    width: 5%;
+    margin-bottom:10px;
 }
 #objectives h1
 {
@@ -1243,11 +1256,206 @@ p
 }
 #objectives p
 {
-    width: 100%;
+    width: 90%;
 }
 #objectives .right
 {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:5px;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    #about-page-banner
+    {
+        height: 30vh;
+    }
+    #about-page-banner .left
+    {
+        margin-top:60px;
+    }
+
+    #abt-contents .left
+    {
+        padding: 0 0 60px;
+    }
+
+    #abt-contents .abt-cntnt .img-div
+    {
+        padding:40px 0;
+    }
+
+    #objectives
+    {
+        background:url('../img/about-section/mission-bg-tab.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    #objectives p
+    {
+        width: 60%;
+    }
+    #objectives .cards
+    {
+        padding:20px 0;
+    }
+    #objectives .cards img
+    {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+
+    #about-page-banner
+    {
+        height: 40vh;
+    }
+    #about-page-banner .left
+    {
+        padding:0 20px;
+    }
+
+    #abt-contents .left
+    {
+        padding: 0 20px 40px;
+    }
+    #abt-contents .right
+    {
+        padding: 0 20px;
+    }
+    #abt-contents .abt-cntnt .img-div
+    {
+        padding:10px 20px 30px;
+    }
+    #abt-contents .abt-cntnt .abt-scnd-para
+    {
+        padding: 0 20px;
+    }
+
+
+    #objectives
+    {
+        background:none;
+    }
+    #objectives .right
+    {
+        padding:0 20px;
+    }
+    #objectives p
+    {
+        width: 100%;
+    }
+    #objectives .cards img
+    {
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE STYLE */
+#contact-page-section
+{
+    background: url('../img/banner/contact-banner.jpg');
+    background-size: cover;
+    height: 60vh;
+    background-position: center center;
+}
+
+
+#contactus
+{
+    /* padding:30px; */
+    position: relative;
+}
+#contactus h4
+{
+    font-weight: 600;
+    margin-bottom:10px;
+}
+#contactus .contact-div
+{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top:-100px;
+    background: #fff;
+    box-shadow: 0 0 30px #00000010;
+}
+#contactus .contact-div .left
+{
+    padding:40px 50px;
+}
+#contactus .contact-div .left input, #contactus .contact-div .left textarea
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    background:#f6f9ff;
+    padding:10px 20px; 
+    border-radius: 30px;
+}
+#contactus .contact-div .left input::placeholder, #contactus .contact-div .left textarea::placeholder
+{
+    font-size: 14px;
+    color: #0a1068;
+}
+#contactus .contact-div .right
+{
+    padding: 40px 60px;
+    background: linear-gradient(90deg, var(--textcolor
+    ),var(--logo1));
+    position: relative;
+}
+#contactus .contact-div .right .logo-white
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    opacity: .2;
+    transform: rotate(-30deg);
+}
+#contactus .contact-div .right p, #contactus .contact-div .right h4, #contactus .contact-div .right i
+{
+    color:#fff;
+}
+#contactus .contact-div .right .cont-details div
+{
+    display: flex;
+    gap:15px;
+}
+#contactus .contact-div .right .cont-details i
+{
+    margin-top:5px;
+    font-size: 18px;
+}
+#contactus .contact-div .right .cont-details .address, #contactus .contact-div .right .cont-details .phone
+{
+    margin-top:20px;
 }

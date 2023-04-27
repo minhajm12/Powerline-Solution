@@ -270,7 +270,7 @@
                         <a class="nav-link" href="#">Career</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="/powerline-solution/contact.php">Contact</a>
                     </li>
                     <li class="nav-item dropdown position-static countries-list-tab">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
