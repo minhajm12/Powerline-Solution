@@ -74,7 +74,7 @@ p
     padding:10px 3%;
     display: flex;
     justify-content: space-between;
-    background: transparent;
+    background: #fff;
     /* box-shadow: 0 0 30px #00000010; */
     transition: .3s ease;
 }
@@ -1379,13 +1379,19 @@ p
 
 
 
+
+
 /* CONTACT PAGE STYLE */
 #contact-page-section
 {
     background: url('../img/banner/contact-banner.jpg');
     background-size: cover;
-    height: 60vh;
+    height: 80vh;
     background-position: center center;
+}
+#contact-page-section .main-head
+{
+    padding-top:15%;
 }
 
 
@@ -1393,17 +1399,18 @@ p
 {
     /* padding:30px; */
     position: relative;
+    margin-bottom:60px;
 }
 #contactus h4
 {
     font-weight: 600;
-    margin-bottom:10px;
+    font-size: 26px;
 }
 #contactus .contact-div
 {
     border-radius: 20px;
     overflow: hidden;
-    margin-top:-100px;
+    margin-top:-140px;
     background: #fff;
     box-shadow: 0 0 30px #00000010;
 }
@@ -1418,7 +1425,7 @@ p
     border: none;
     background:#f6f9ff;
     padding:10px 20px; 
-    border-radius: 30px;
+    border-radius: 25px;
 }
 #contactus .contact-div .left input::placeholder, #contactus .contact-div .left textarea::placeholder
 {
@@ -1428,8 +1435,7 @@ p
 #contactus .contact-div .right
 {
     padding: 40px 60px;
-    background: linear-gradient(90deg, var(--textcolor
-    ),var(--logo1));
+    background:linear-gradient(-90deg, #1c98ca,#0f5a95);
     position: relative;
 }
 #contactus .contact-div .right .logo-white
@@ -1445,10 +1451,18 @@ p
 {
     color:#fff;
 }
+#contactus .contact-div .right .cont-details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    gap:30px;
+}
 #contactus .contact-div .right .cont-details div
 {
     display: flex;
-    gap:15px;
+    gap:25px;
 }
 #contactus .contact-div .right .cont-details i
 {
@@ -1457,5 +1471,230 @@ p
 }
 #contactus .contact-div .right .cont-details .address, #contactus .contact-div .right .cont-details .phone
 {
-    margin-top:20px;
+    /* margin-top:20px; */
+}
+#contactus .contact-div .left .cnt-button
+{
+    display: flex;
+    justify-content: end;
+}
+#contactus .contact-div .left .cnt-button .cntc-btn
+{
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, var(--logo1
+    ),var(--logo2));
+    padding:10px 40px;
+    width: fit-content;
+    color:#fff;
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: 3px 3px 20px #25aae175;
+    background-size: 100% auto;
+    transition: .3s ease;
+}
+#contactus .contact-div .left .cnt-button .cntc-btn:hover
+{
+    background-size: 200% auto;
+}
+#contactus .contact-div .right .cont-details .social-media a
+{
+    text-decoration: none;
+}
+#contactus .contact-div .right .cont-details .social-media i
+{
+    padding:15px;
+    background: var(--logo2);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition: .3s ease;
+}
+#contactus .contact-div .right .cont-details .social-media i:hover
+{
+    background: var(--textcolor);
+}
+
+
+
+#map
+{
+    margin-bottom:60px;
+}
+#map iframe
+{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 992px)
+{
+    #contact-page-section .main-head
+    {
+        padding-top: 25%;
+        font-size: 32px;
+    }
+    #contact-page-section
+    {
+        height: 43vh;
+        background-position: -400px center;
+    }
+    #contactus .contact-div .right
+    {
+        padding:60px;
+    }
+    #contactus .contact-div .left .cnt-button
+    {
+        justify-content: center;
+    }
+    #contactus .contact-div .left .cnt-button .cntc-btn
+    {
+        width: 40%;
+    }
+    #contactus .contact-div
+    {
+        margin-top:-100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #contact-page-section
+    {
+        height: 45vh;
+        background-position:center left;
+    }
+    #contact-page-section .container
+    {
+        padding:0 20px;
+    }
+    #contact-page-section .main-head
+    {
+        padding-top: 40%;
+    }
+
+    #contactus .container
+    {
+        padding:0 20px;
+    }
+    #contactus .contact-div .left .cnt-button .cntc-btn
+    {
+        width: 100%;
+    }
+    #contactus .contact-div .right .cont-details div
+    {
+        gap:10px;
+    }
+
+    #map .container
+    {
+        padding:0 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAREER PAGE BANNER */
+#career-page-banner
+{
+    height: 70vh;
+    background: url('../img/banner/career-page-banner.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+#career-page-banner .left
+{
+    padding-top: 20%;
+}
+
+#careerpara-1
+{
+
+}
+#careerpara-1 .left, #careerpara-1 .right
+{
+    padding:60px 20px;
+}
+#careerpara-1 .left img
+{
+    border-radius: 20px;
+}
+#careerpara-1 .right .main-head
+{
+    font-size: 30px;
+}
+#careerpara-1 .right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#applysection
+{
+    padding:0 0 4% 0;
+}
+#applysection .formsection
+{
+    padding:40px;
+    box-shadow: 0 0 20px #00000020;
+    border-radius: 20px;
+}
+#applysection input
+{
+    width: 100%;
+    padding:10px 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 30px;
+}
+#applysection input::placeholder
+{
+    font-size: 14px;
+}
+#applysection input:focus-visible
+{
+    border: none !important;
+    outline: 1px solid var(--logo2);
+}
+#applysection .formsection .career-btn-div
+{
+    display: flex;
+    justify-content: center;
+}
+#applysection .formsection .career-btn
+{
+    outline: none;
+    border: none;
+    width:40%;
+    padding:10px 20px;
+    border-radius: 30px;
+    background:var(--logo2);
+    background-size: 100% auto;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 2px 2px 20px #25aae175;
+    transition: .3s ease;
+}
+#applysection .formsection .career-btn:hover
+{
+    background:var(--textcolor);
 }

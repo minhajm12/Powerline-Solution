@@ -267,7 +267,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Career</a>
+                        <a class="nav-link" href="/powerline-solution/career.php">Career</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/powerline-solution/contact.php">Contact</a>

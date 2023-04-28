@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="service-cards">
-                        <img src="assets/img/banner/industrial-image.jpg" alt="">
+                        <img src="assets/img/service-img/interior.jpg" alt="">
                         <div class="card-details">
                             <h2>Interior Projects</h2>
                             <p>Turnkey Interior fitout and Electromechanical Service Provider.</p>

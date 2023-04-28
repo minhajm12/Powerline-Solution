@@ -29,7 +29,7 @@
 
     <section id="contact-page-section">
         <div class="container">
-
+            <h1 class="main-head">Contact Us<br>For More Information</h1>
         </div>
     </section>
 
@@ -40,31 +40,34 @@
             <div class="contact-div">
 
                 <div class="row">
-                    <div class="col-6 left">
-                        <h4 class="mb-lg-4">Sent Us Message</h4>
+                    <div class="col-lg-6 col-12 left">
+                        <h4 class="mb-lg-4 mb-md-4 mb-4">Sent Us Message</h4>
                         <form>
                             <div class="row g-3">
-                                <div class="col-6">
+                                <div class="col-lg-6 col-md-6 col-12">
                                     <input name="" id="" type="text" placeholder="Name">
                                 </div>
-                                <div class="col-6">
+                                <div class="col-lg-6 col-md-6 col-12">
                                     <input name="" id="" type="mail" placeholder="Email Address">
                                 </div>
                                 <div class="col-12">
                                     <input name="" id="" type="phone" placeholder="Phone Number">
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="" id="" rows="10" placeholder="Comment Here"></textarea>
+                                    <textarea name="" id="" rows="7" placeholder="Comment Here"></textarea>
+                                </div>
+                                <div class="cnt-button">
+                                    <button class="cntc-btn">SUBMIT</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-6 right">
+                    <div class="col-lg-6 col-12 right">
                         <div class="cont-details">
-                            <h4 class="mb-lg-4">Contact Information</h4>
+                            <h4 class="mb-lg-4 mb-md-4 mb-0">Contact Information</h4>
                             <div class="location">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <p>Office No.606, 6 th Floor, Building No-100, Markaz Al-Mana Building, Al Matar Street, P.O Box # 203357 Doha, State of Qatar</p>
+                                <p>Office No.606, 6 th Floor, Building No-100, Markaz Al-Mana Building, Al Matar Street, P.O Box #203357 <br>Doha, State of Qatar</p>
                             </div>
                             <div class="address">
                                 <i class="fa-solid fa-paper-plane"></i>
@@ -75,6 +78,17 @@
                                 <i class="fa-solid fa-phone"></i>
                                 <p>+974 6690 8935, +974 4431 1798, +974 4418 1791</p>
                             </div>
+                            <div class="social-media">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
                             <img src="assets/img/logo-white.png" alt="" class="logo-white">
                         </div>
                     </div>
@@ -82,6 +96,12 @@
             </div>
         </div>
     </div>
+
+    <section id="map">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18052.360689001915!2d51.53460614827588!3d25.270653453488794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c55ccbaa51a1%3A0x87b2a7b829171c1a!2sPOWERLINE%20SOLUTIONS%20WLL!5e0!3m2!1sen!2sin!4v1682673521705!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 
     <!-- FOOTER SECTION -->
     <?php include 'inc/footer.php'; ?>
