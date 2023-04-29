@@ -32,8 +32,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12 left">
-                    <h1 class="main-head">ABOUT US</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                    <p class="top-head">About Us</p>
+                    <h1 class="main-head">Powerline Solutions</h1>
                 </div>
                 <div class="col-lg-6 col-12 right">
                     <img src="assets/img/" alt="" class="img-fluid">

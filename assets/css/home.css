@@ -152,6 +152,12 @@ p
 {
     font-size: 14px;
     padding:10px;
+    transition: .1s ease;
+}
+.navbar-collapse .dropdown-menu .scnd-col a:hover, .navbar-collapse .dropdown-menu .third-col a:hover
+{
+    background:var(--logo1);
+    color: #fff;
 }
 .navbar-collapse .dropdown-menu .third-col
 {
@@ -164,6 +170,7 @@ p
 .navbar-collapse .dropdown-menu .third-col a
 {
     font-size: 14px;
+    transition: .1s ease;
 }
 .navbar-toggler
 {
@@ -291,7 +298,7 @@ p
 #banner h1
 {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 60px;
 }
 #banner p
@@ -947,8 +954,13 @@ p
     }
     #banner h1
     {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 32px;
+    }
+    #banner p
+    {
+        font-size: 16px;
+        line-height: 22px;
     }
     .navbar-collapse .dropdown-menu .third-col
     {
@@ -965,7 +977,7 @@ p
     }
     .main-head
     {
-        font-size: 30px;
+        font-size: 26px;
     }
     .content-para
     {
@@ -1313,10 +1325,12 @@ p
     #about-page-banner
     {
         height: 40vh;
+        background-position: center left;
     }
     #about-page-banner .left
     {
         padding:0 20px;
+        margin-top:100px;
     }
 
     #abt-contents .left
@@ -1430,7 +1444,7 @@ p
 #contactus .contact-div .left input::placeholder, #contactus .contact-div .left textarea::placeholder
 {
     font-size: 14px;
-    color: #0a1068;
+    color: #0a106884;
 }
 #contactus .contact-div .right
 {
@@ -1575,11 +1589,17 @@ p
     #contact-page-section .main-head
     {
         padding-top: 40%;
+        font-size: 26px;
     }
+    
 
     #contactus .container
     {
         padding:0 20px;
+    }
+    #contactus .contact-div .right
+    {
+        padding:60px 40px;
     }
     #contactus .contact-div .left .cnt-button .cntc-btn
     {
@@ -1697,4 +1717,98 @@ p
 #applysection .formsection .career-btn:hover
 {
     background:var(--textcolor);
+}
+
+#applysection .upload
+{
+    position: relative;
+}
+#applysection .upload-resume
+{
+    position: absolute;
+    position: absolute;
+    width: 60%;
+    background: transparent;
+    border: 1px solid var(--logo2);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 992px)
+{
+    #career-page-banner .left
+    {
+        padding-top: 30%;
+    }
+    #career-page-banner
+    {
+        height: 43vh;
+        background-position: -450px center;
+    }
+    #career-page-banner .main-head
+    {
+        width: 50%;
+    }
+    #careerpara-1 .left
+    {
+        padding:60px;
+    }
+    #careerpara-1 .right
+    {
+        padding: 20px 0;
+    }
+
+    #applysection
+    {
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    #careerpara-1 .left
+    {
+        padding: 40px 20px;
+    }
+    #career-page-banner
+    {
+        background-position: center left;
+    }
+    #career-page-banner .left
+    {
+        padding:48% 20px 0;
+    }
+    #career-page-banner .main-head
+    {
+        width: 100%;
+    }
+    #careerpara-1 .right
+    {
+        padding:20px;
+    }
+    #careerpara-1 .right .main-head
+    {
+        font-size: 26px;
+    }
+
+    #applysection .container
+    {
+        padding:0 20px;
+    }
+    #applysection .formsection
+    {
+        padding: 40px 30px;
+    }
+    #applysection .formsection .career-btn
+    {
+        width: 100%;
+    }
+    #applysection .upload-resume
+    {
+        
+    }
 }

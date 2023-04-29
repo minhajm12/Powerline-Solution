@@ -156,7 +156,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/powerline-solution/about.php" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
                             Business Solution
                         </a>
                         <!-- Dropdown menu -->
