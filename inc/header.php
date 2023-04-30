@@ -124,7 +124,7 @@
                                                     </a>
                                                 </div>
                                             </div> -->
-                                    <div class="col-md-6 col-xl-3 mb-lg-3 mb-md-0 mb-0 scnd-col">
+                                    <div class="col-md-6 col-xl-4 mb-lg-3 mb-md-0 mb-0 scnd-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Our Products
@@ -139,7 +139,7 @@
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Ebsray - PSG Dover</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-xl-5 third-col">
+                                    <div class="col-md-6 col-xl-4 third-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mt-lg-2 mt-md-2 mt-4 list-group-item text-uppercase font-weight-bold d-lg-block d-md-block d-none"></p>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Milton Roy</a>

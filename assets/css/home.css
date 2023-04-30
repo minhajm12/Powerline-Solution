@@ -152,12 +152,13 @@ p
 {
     font-size: 14px;
     padding:10px;
-    transition: .1s ease;
+    transition: .2s ease;
 }
 .navbar-collapse .dropdown-menu .scnd-col a:hover, .navbar-collapse .dropdown-menu .third-col a:hover
 {
     background:var(--logo1);
     color: #fff;
+    border-radius: 20px;
 }
 .navbar-collapse .dropdown-menu .third-col
 {
