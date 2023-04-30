@@ -135,13 +135,13 @@
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Bernard Controls</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>FTI</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Edward Vaccum Solutions</a>
-                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Blackmer - PSG Dover</a>
-                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Ebsray - PSG Dover</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xl-4 third-col">
                                         <div class="list-group list-group-flush">
-                                            <p class="mt-lg-2 mt-md-2 mt-4 list-group-item text-uppercase font-weight-bold d-lg-block d-md-block d-none"></p>
+                                            <!-- <p class="mt-lg-2 mt-md-2 mt-4 list-group-item text-uppercase font-weight-bold d-lg-block d-md-block d-none"></p> -->
+                                            <a href="" class="list-group-item list-group-item-action mt-3"><i class="fas fa-caret-right pe-2"></i>Blackmer - PSG Dover</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Ebsray - PSG Dover</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Milton Roy</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Griswold - Psg Dover</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Mouvex - Psg Dover</a>
@@ -156,7 +156,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="/powerline-solution/about.php" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/powerline-solution/about.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Business Solution
                         </a>
                         <!-- Dropdown menu -->
@@ -245,17 +245,27 @@
                                                     </a>
                                                 </div>
                                             </div> -->
-                                    <div class="col-md-6 col-xl-8 mb-3 mb-md-0 scnd-col">
+                                    <div class="col-md-6 col-xl-4 mb-3 mb-md-0 scnd-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
                                                 Business Solution
                                             </p>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>EPC </a>
-                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Automation</a>
-                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Drives</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Interior Projects</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Power Backup</a>
                                             <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Power System Services</a>
-                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Hydraulics And fa-pencilumatics</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Hydraulics and Pneumantics</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Oil & Gas</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 mb-3 mb-md-0 scnd-col">
+                                        <div class="list-group list-group-flush">
+                                            <p class="mb-0 list-group-item text-uppercase font-weight-bold"></p>
+                                            <a href="" class="list-group-item list-group-item-action mt-4"><i class="fas fa-caret-right pe-2"></i>Polymer and Rubber Division</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Power Quality</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Automation</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Industrial Drive</a>
+                                            <a href="" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Medical</a>
                                         </div>
                                     </div>
                                 </div>

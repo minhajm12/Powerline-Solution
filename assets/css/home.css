@@ -140,6 +140,10 @@ p
 {
     text-decoration: none   ;
 }
+.navbar-collapse .dropdown-menu .first-col p
+{
+    font-size: 14px;
+}
 .navbar-collapse .dropdown-menu .scnd-col
 {
     padding: 10px 20px;
@@ -172,6 +176,7 @@ p
 {
     font-size: 14px;
     transition: .1s ease;
+    padding: 10px;
 }
 .navbar-toggler
 {
