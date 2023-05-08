@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
@@ -49,14 +52,14 @@
         <section id="aboutsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 left">
+                    <div class="col-lg-6 left" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                         <div class="img-div">
                             <img src="assets/img/about-section/abt-img-1.png" alt="" class="abt-img-1 img-fluid">
                             <img src="assets/img/about-section/abt-img-2.png" alt="" class="abt-img-2 img-fluid">
                             <img src="assets/img/about-section/abt-img-3.png" alt="" class="abt-img-3 img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 right">
+                    <div class="col-lg-6 right" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
                         <p class="top-head">About us</p>
                         <h1 class="main-head">Powerline Solutions</h1>
                         <p class="content-para">Since 2005 from inception, we have completed more than 240 projects across 4 countries, the majority which is hustle in nature. Our company is built on leadership and a relentless adherence to our values, the core of which are Ethics, safety, quality, and employee welfare. These values are what we believe, we practice, what we expect, what we deliver to our customers and the society we live in.</p>
@@ -71,8 +74,8 @@
         <!-- SERVICE SECTION -->
         <section id="servicesection">
             <div class="container">
-                <h2 class="main-head mx-2">Our Services</h2>
-                <div class="services owl-carousel">
+                <h2 class="main-head mx-2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Our Services</h2>
+                <div class="services owl-carousel" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                     <div class="service-cards">
                         <img src="assets/img/service-img/epc.jpg" alt="">
                         <div class="card-details">
@@ -189,8 +192,8 @@
         <!-- CLIENTS SECTION -->
         <section id="productssection">
             <div class="container">
-                <h2 class="main-head mx-2">Our Products</h2>
-                <div class="products owl-carousel">
+                <h2 class="main-head mx-2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">Our Products</h2>
+                <div class="products owl-carousel" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div class="items">
                         <div class="img-div">
                             <img src="assets/img/porducts-img/senetry.jpg" alt="">
@@ -301,7 +304,7 @@
         <?php include 'inc/footer.php'; ?>
         <!-- FOOTER SECTION END -->
 
-        
+
     </div>
 
 
@@ -311,6 +314,12 @@
     <!-- Bootstrap CDN Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- OWL Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

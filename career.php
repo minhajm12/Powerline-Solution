@@ -61,6 +61,58 @@
 
 
 
+
+
+
+    <section id="openings">
+        <div class="container">
+            <h1 class="main-head mb-4">Opening Post's</h1>
+            <div class="open-div">
+                <div class="open-items">
+                    <h2 class="main-head">Accountant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
+                    <div>
+                        <p>Experience :<span class="career-bold"> 0-3 Year</span></p>
+                        <p>No. of Vacancy :<span class="career-bold"> 2</span></p>
+                        <p>Job Type :<span class="career-bold"> Full Time</span></p>
+                    </div>
+                    <div class="apply-div">
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+                <div class="open-items">
+                    <h2 class="main-head">Accountant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
+                    <div>
+                        <p>Experience :<span class="career-bold"> 0-3 Year</span></p>
+                        <p>No. of Vacancy :<span class="career-bold"> 2</span></p>
+                        <p>Job Type :<span class="career-bold"> Full Time</span></p>
+                    </div>
+                    <div class="apply-div">
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+                <div class="open-items">
+                    <h2 class="main-head">Accountant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
+                    <div>
+                        <p>Experience :<span class="career-bold"> 0-3 Year</span></p>
+                        <p>No. of Vacancy :<span class="career-bold"> 2</span></p>
+                        <p>Job Type :<span class="career-bold"> Full Time</span></p>
+                    </div>
+                    <div class="apply-div">
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
     <section id="applysection">
         <div class="container">
             <div class="formsection">

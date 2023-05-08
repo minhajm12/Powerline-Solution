@@ -319,6 +319,12 @@ p
     padding: 15% 0;
     gap:15px;
 }
+#banner .right
+{
+    display: flex;
+    padding:40px;
+    align-items: center;
+}
 
 
 
@@ -1674,6 +1680,79 @@ p
     flex-direction: column;
     justify-content: center;
 }
+
+
+
+
+
+#openings
+{
+    padding:4% 0 8% 0;
+}
+#openings .open-div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+#openings .open-div .main-head
+{
+    font-size: 26px !important;
+    color: #fff !important;
+}
+#openings .open-div .open-items
+{
+    box-shadow: 3px 3px 10px #2546e18f;
+    background: linear-gradient(90deg, var(--textcolor),var(--logo2));
+    background-size: 400% auto;
+    padding:40px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+}
+#openings .open-div .apply-div
+{
+    display: flex;
+    justify-content: center;
+}
+#openings .open-div .open-items .apply-btn
+{
+    position: absolute;
+    bottom:-20px;
+    background:var(--logo2);
+    color: #fff;
+    padding:10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    /* transform: translateY(50px); */
+    width: 80%;
+    font-weight: 600;
+    box-shadow: 0 0 10px #25aae1ad;
+    transition: .3s ease;
+}
+#openings .open-div .open-items .apply-btn:hover
+{
+    background: #fff;
+    color: var(--textcolor);
+}
+#openings .open-div .open-items p
+{
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+#openings .open-div .open-items .career-bold
+{
+    font-weight: 600;
+}
+
+
+
+
+
 
 #applysection
 {
