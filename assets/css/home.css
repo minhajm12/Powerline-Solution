@@ -961,8 +961,12 @@ p
 {
     #banner .left
     {
-        padding:20% 20px 0;
+        padding:10% 20px 0;
         gap:10px;
+    }
+    #banner .right
+    {
+        padding: 10px;
     }
     #banner h1
     {
@@ -1176,13 +1180,13 @@ p
 {
     position: relative;
     z-index: 2;
-    animation: float 6s ease infinite;
+    animation: float 6s ease infinite 3s;
 }
 #abt-contents .left .abt-img-2
 {
     position: absolute;
     left: 0;
-    animation: float 6s ease infinite;
+    animation: float 6s ease infinite 3s;
     animation-delay: 1000ms;
 
 }
@@ -1190,7 +1194,7 @@ p
 {
     position: absolute;
     left: 0;
-    animation: float 6s ease infinite;
+    animation: float 6s ease infinite 3s;
     animation-delay: 2000ms;
 
 }
@@ -1950,6 +1954,17 @@ p
     {
         font-size: 26px;
     }
+
+    #openings .open-div
+    {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+    #openings .container
+    {
+        padding:20px;
+    }
+
 
     #applysection .container
     {

@@ -14,6 +14,9 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
@@ -30,11 +33,11 @@
     <section id="about-page-banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12 left">
+                <div class="col-lg-6 col-12 left" data-aos="fade-up" data-aos-duration="1000">
                     <p class="top-head">About Us</p>
                     <h1 class="main-head">Powerline Solutions</h1>
                 </div>
-                <div class="col-lg-6 col-12 right">
+                <div class="col-lg-6 col-12 right" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <img src="assets/img/" alt="" class="img-fluid">
                 </div>
             </div>
@@ -45,27 +48,29 @@
     <section id="abt-contents">
         <div class="container">
             <div class="row py-lg-3 py-2">
-                <div class="col-lg-6 col-md-12 col-12 left">
+                <div class="col-lg-6 col-md-12 col-12 left" data-aos="fade-up" data-aos-duration="1000">
                     <div class="img-div">
-                        <img src="assets/img/about-section/abt-page-1.png" class="abt-img-1 img-fluid" alt="">
-                        <img src="assets/img/about-section/abt-page-2.png" class="abt-img-2 img-fluid" alt="">
-                        <img src="assets/img/about-section/abt-page-3.png" class="abt-img-3 img-fluid" alt="">
+                        <img src="assets/img/about-section/abt-page-1.png" class="abt-img-1 img-fluid" alt="" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="assets/img/about-section/abt-page-2.png" class="abt-img-2 img-fluid" alt="" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="assets/img/about-section/abt-page-3.png" class="abt-img-3 img-fluid" alt="" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 right">
+                <div class="col-lg-6 col-md-12 col-12 right" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <p class="top-head">Powerline Solution</p>
                     <h2 class="main-head">Joining Hands to Make Wonders</h2>
                     <p class="content-para">Established in 2012, Powerline Solutions Trading & contracting is one of the leading construction and trading groups based in Doha, Qatar, with standalone expertise in electrical, instrumentation & mechanical construction, and trading activities. PLS Contracting has evolved into a reliable, highly efficient, and competent contracting company over these years. Our success is measured by the outmost excellence of our completed projects and achieving the client's vision with high standards ranging from design to implementation.</p>
                 </div>
             </div>
             <div class="row py-lg-3 py-2 abt-cntnt">
-                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center order-lg-1 order-md-2 order-2 abt-scnd-para">
+                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center order-lg-1 order-md-2 order-2 abt-scnd-para" data-aos="fade-up" data-aos-duration="1000">
                     <p>Our current business activities involved, distinctively providing expertise services to the fields of Oil & Gas, Steel Plants, Power, Water, Industrial Plants and Infrastructure Development Projects as well as their associated facilities. PLS Projects division undertakes jobs in the fields of Design, Supply, Installation, and Commissioning of all types of Electrical, Instrumentation and Mechanical Projects. PLS governs by a team of apex notch professionals, expert project management personnel, efficient pool of human resources which establish project milestones and successful completion on time.</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center order-lg-2 order-md-1 order-1">
+                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center order-lg-2 order-md-1 order-1" >
                     <div class="img-div">
-                        <img src="assets/img/about-section/abt-page-6.png" class="abt-img-6 img-fluid" alt="">
-                        <!-- <img src="assets/img/about-section/abt-page-5.png" class="abt-img-5 img-fluid" alt=""> -->
+                        <img src="assets/img/about-section/abt-page-4.png" class="abt-img-6 img-fluid" alt=""
+                        data-aos="fade-right" data-aos-duration="1000">
+                        <img src="assets/img/about-section/abt-page-5.png" class="abt-img-5 img-fluid" alt=""
+                        data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -79,17 +84,17 @@
 
                 </div>
                 <div class="col-lg-8 right">
-                    <div class="cards">
+                    <div class="cards" data-aos="fade-up" data-aos-duration="1000">
                         <img src="assets/img/icons/vision.png" alt="">
                         <h1>Our Vision</h1>
                         <p>To build a sustainable, premier Solution provider company in Engineering, Procurement, Construction, Project management, Services and Manufacturing segments with a global presence.</p>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img/icons/value.png" alt="">
                         <h1>Our Values</h1>
                         <p>We use the highest levels of integrity, honesty, and fairness in dealing with our customers and each other, and are passionate about excellence and make sure in doing the job perfectly in the first instance.</p>
                     </div>
-                    <div class="cards">
+                    <div class="cards" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <img src="assets/img/icons/mission.png" alt="">
                         <h1>Our Mission</h1>
                         <p>We are sustainable and growing business organization and Ethics, Quality, health and safety, timely delivery, and environmental integrity are the principles that define our mission.</p>
@@ -121,6 +126,12 @@
     <!-- Bootstrap CDN Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- OWL Carousel -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

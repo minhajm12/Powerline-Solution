@@ -35,13 +35,13 @@
         <div id="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 left order-lg-1 order-2">
+                    <div class="col-lg-6 left order-lg-1 order-2" data-aos="fade-up" data-aos-duration="1000">
                         <p class="top-head">POWERLINE SOLUTIONS</p>
                         <h1>Join Hands with us to Make Wonders</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis expedita maiores, doloremque delectus nesciunt.</p>
                         <a href="" class="main-btn">Read More</a>
                     </div>
-                    <div class="col-lg-6 right order-lg-2 order-1">
+                    <div class="col-lg-6 right order-lg-2 order-1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img/banner/banner-img-2.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -52,14 +52,14 @@
         <section id="aboutsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 left" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+                    <div class="col-lg-6 left">
                         <div class="img-div">
-                            <img src="assets/img/about-section/abt-img-1.png" alt="" class="abt-img-1 img-fluid">
-                            <img src="assets/img/about-section/abt-img-2.png" alt="" class="abt-img-2 img-fluid">
-                            <img src="assets/img/about-section/abt-img-3.png" alt="" class="abt-img-3 img-fluid">
+                            <img src="assets/img/about-section/abt-img-1.png" alt="" class="abt-img-1 img-fluid" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="assets/img/about-section/abt-img-2.png" alt="" class="abt-img-2 img-fluid" data-aos="fade-left"  data-aos-delay="400" data-aos-duration="1000">
+                            <img src="assets/img/about-section/abt-img-3.png" alt="" class="abt-img-3 img-fluid" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
                         </div>
                     </div>
-                    <div class="col-lg-6 right" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
+                    <div class="col-lg-6 right" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <p class="top-head">About us</p>
                         <h1 class="main-head">Powerline Solutions</h1>
                         <p class="content-para">Since 2005 from inception, we have completed more than 240 projects across 4 countries, the majority which is hustle in nature. Our company is built on leadership and a relentless adherence to our values, the core of which are Ethics, safety, quality, and employee welfare. These values are what we believe, we practice, what we expect, what we deliver to our customers and the society we live in.</p>
@@ -74,8 +74,8 @@
         <!-- SERVICE SECTION -->
         <section id="servicesection">
             <div class="container">
-                <h2 class="main-head mx-2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Our Services</h2>
-                <div class="services owl-carousel" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                <h2 class="main-head mx-2" data-aos="fade-up" data-aos-duration="1000">Our Services</h2>
+                <div class="services owl-carousel" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div class="service-cards">
                         <img src="assets/img/service-img/epc.jpg" alt="">
                         <div class="card-details">
@@ -170,14 +170,14 @@
         <!-- SERVICE SECTION END -->
 
         <!-- CALL ACTION SECTION -->
-        <section id="first-cta">
+        <section id="first-cta" data-aos="fade-up" data-aos-duration="1000">
             <div class="container-fluid">
                 <div class="cta-box">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12 left">
 
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12 right">
+                        <div class="col-lg-6 col-md-6 col-12 right" data-aos="fade-left"  data-aos-delay="400" data-aos-duration="1000">
                             <!-- <img src="assets/img/service-card-1.jpg" class="img-fluid" alt=""> -->
                             <h3>Connect With Us</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel.</p>

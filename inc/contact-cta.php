@@ -1,4 +1,4 @@
-<section id="contactsection">
+<section id="contactsection" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="contact-box">
             <h2>Contact us for More Information</h2>

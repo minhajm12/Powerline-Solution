@@ -14,6 +14,9 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
@@ -29,7 +32,7 @@
 
     <section id="contact-page-section">
         <div class="container">
-            <h1 class="main-head">Contact Us<br>For More Information</h1>
+            <h1 class="main-head" data-aos="fade-up" data-aos-duration="1000">Contact Us<br>For More Information</h1>
         </div>
     </section>
 
@@ -37,7 +40,7 @@
 
     <div id="contactus">
         <div class="container">
-            <div class="contact-div">
+            <div class="contact-div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
 
                 <div class="row">
                     <div class="col-lg-6 col-12 left">
@@ -97,7 +100,7 @@
         </div>
     </div>
 
-    <section id="map">
+    <section id="map" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18052.360689001915!2d51.53460614827588!3d25.270653453488794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c55ccbaa51a1%3A0x87b2a7b829171c1a!2sPOWERLINE%20SOLUTIONS%20WLL!5e0!3m2!1sen!2sin!4v1682673521705!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -114,6 +117,12 @@
     <!-- Bootstrap CDN Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- OWL Carousel -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

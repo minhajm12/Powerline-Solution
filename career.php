@@ -17,6 +17,9 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Home Style -->
     <link rel="stylesheet" href="assets/css/home.css">
 
@@ -32,7 +35,7 @@
     <section id="career-page-banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-12 left">
+                <div class="col-lg-6 col-md-12 col-12 left" data-aos="fade-up" data-aos-duration="1000">
                     <p class="top-head">Careers</p>
                     <h1 class="main-head">Growing With Powerline</h1>
                 </div>
@@ -46,10 +49,10 @@
     <section id="careerpara-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-12 left">
+                <div class="col-lg-6 col-md-12 col-12 left" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/img/career/career-img-1.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 right">
+                <div class="col-lg-6 col-md-12 col-12 right" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <h1 class="main-head mb-2">Why Not Powerline Solutions?</h1>
                     <p class="content-para">Powerline solutions complements your engineering and development efforts by providing end to end engineering services, we offer challenging job environment for people who wish to showcase their talents. If you are looking for a workplace that gives you tremendous opportunities for growth and at the same time a fun place to work – Powerline Solutions would be your first choice of employers. Would you like to explore opportunities with us?</p>
                     <h2 class="main-head mt-lg-4 mt-md-5 mb-2 mt-4">Growth At Powerline Solutions</h2>
@@ -66,9 +69,9 @@
 
     <section id="openings">
         <div class="container">
-            <h1 class="main-head mb-4">Opening Post's</h1>
+            <h1 class="main-head mb-4" data-aos="fade-up" data-aos-duration="1000">Opening Post's</h1>
             <div class="open-div">
-                <div class="open-items">
+                <div class="open-items" data-aos="fade-up" data-aos-duration="1000">
                     <div class="logo">
                         <img src="assets/img/logo.gif" alt="">
                     </div>
@@ -83,7 +86,7 @@
                         <button class="apply-btn">Apply Now</button>
                     </div>
                 </div>
-                <div class="open-items">
+                <div class="open-items" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div class="logo">
                         <img src="assets/img/logo.gif" alt="">
                     </div>
@@ -98,7 +101,7 @@
                         <button class="apply-btn">Apply Now</button>
                     </div>
                 </div>
-                <div class="open-items">
+                <div class="open-items" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <div class="logo">
                         <img src="assets/img/logo.gif" alt="">
                     </div>
@@ -113,7 +116,7 @@
                         <button class="apply-btn">Apply Now</button>
                     </div>
                 </div>
-                <div class="open-items">
+                <div class="open-items" data-aos="fade-up" data-aos-duration="1000">
                     <div class="logo">
                         <img src="assets/img/logo.gif" alt="">
                     </div>
@@ -190,6 +193,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <!-- OWL Carousel -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script> -->
@@ -197,7 +206,7 @@
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
 
-    <!-- MAIN JS -->
+    <!-- Modal JS -->
     <script src="assets/js/modal.js"></script>
 
 </body>
