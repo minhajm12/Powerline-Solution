@@ -20,7 +20,6 @@
     <!-- Home Style -->
     <link rel="stylesheet" href="assets/css/home.css">
 
-    <!-- About Style -->
 </head>
 
 <body>

@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=DM+Serif+Display&family=Monoton&family=Playfair+Display+SC&family=Poppins:wght@300;400;500&family=Raleway:wght@200&display=swap');
+
+
+:root
+{
+    --logo2:#25aae1;
+    --logo1:#2e348e;
+    --textcolor:#0a1068;
+}
+
+
 body{
     overflow-x: hidden;
     color: white;
@@ -243,11 +253,17 @@ p{
     top: 55px;
     font-size: 30px;
     cursor: pointer;
+    transition: .3s ease;
+}
+#menu__bar:hover
+{
+    color: var(--logo2);
 }
 #offcanvasRight ul{
     margin-top: 65px;
     padding: 0px;
     padding-left: 15px;
+    border: none;
 }
 #offcanvasRight ul li{
     list-style: none;
@@ -333,4 +349,85 @@ p{
     font-size: 15px;
     color: rgb(180, 180, 180);
     margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+.country-change-icon
+{
+    margin-left: 10px;
+    position: fixed;
+    top:48px;
+    right:6%;
+}
+.country-change-icon i
+{
+    color: #fff;
+    font-size: 24px;
+    transition: .3s ease;
+}
+.country-change-icon i:hover
+{
+    color: var(--logo2);
+}
+.country-change-icon .dropdown-menu[data-bs-popper]
+{
+    right: 2% !important;
+    top:80%;
+    left: 85%;
+}
+.country-change-icon button
+{
+    background:none;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+.country-change-icon .dropdown-menu[data-bs-popper]
+{
+    border: none;
+    background:#fff;
+    backdrop-filter: blur(30px);
+    padding:10px !important;
+    box-shadow: 0 0 20px #00000010;
+    width: unset !important;
+    transform: unset;
+    border-radius: 10px;
+}
+.country-change-icon .dropdown-menu img
+{
+    width: 20px;
+}
+.country-change-icon ul
+{
+    padding:10px;
+}
+.country-change-icon .dropdown-menu li
+{
+    display: flex;
+    padding:5px 10px;
+    transition: .3s ease;
+    border-radius: 5px;
+    /* margin-bottom: 5px !important; */
+}
+.country-change-icon .dropdown-menu li:hover
+{
+    background: linear-gradient(45deg, var(--logo1), var(--logo2));
+    box-shadow: 2px 2px 10px #25aae163;
+}
+.country-change-icon .dropdown-menu li:hover a
+{
+    color: #fff !important;
+}
+.country-change-icon .dropdown-menu li a
+{
+    padding:0;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
 }

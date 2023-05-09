@@ -1689,11 +1689,16 @@ p
 {
     padding:4% 0 8% 0;
 }
+#openings .main-head
+{
+    font-size: 30px;
+}
 #openings .open-div
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:30px;
+    row-gap: 50px;
 }
 #openings .open-div .main-head
 {
@@ -1711,6 +1716,24 @@ p
     flex-direction: column;
     gap:10px;
     position: relative;
+}
+#openings .open-div .open-items .logo
+{
+    position: absolute;
+    right:10px;
+    top:10px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#openings .open-div .open-items .logo img
+{
+    width: 60%;
+    margin-top:-5px;
 }
 #openings .open-div .apply-div
 {
@@ -1758,11 +1781,52 @@ p
 {
     padding:0 0 4% 0;
 }
+#applysection .modal-main
+{
+    background: #000000bf;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:-50%;
+    z-index: 1000;
+    /* top:-100%; */
+    transition: .2s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-animation
+{
+    top:0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.overflow-scroll-rem
+{
+    height: 100vh;
+    max-height:100vh ;
+    overflow-y: hidden;
+}
 #applysection .formsection
 {
     padding:40px;
     box-shadow: 0 0 20px #00000020;
     border-radius: 20px;
+    background:#fff;
+    width: 75%;
+}
+#applysection .formsection .modal-head
+{
+    display: flex;
+    justify-content: space-between;
+}
+#applysection .formsection .close
+{
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--textcolor);
 }
 #applysection input
 {
@@ -1823,6 +1887,7 @@ p
     font-size: 14px;
 }
 
+
 @media only screen and (max-width: 992px)
 {
     #career-page-banner .left
@@ -1845,6 +1910,12 @@ p
     #careerpara-1 .right
     {
         padding: 20px 0;
+    }
+
+    #openings .open-div
+    {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
     }
 
     #applysection

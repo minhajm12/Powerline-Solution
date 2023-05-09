@@ -69,6 +69,9 @@
             <h1 class="main-head mb-4">Opening Post's</h1>
             <div class="open-div">
                 <div class="open-items">
+                    <div class="logo">
+                        <img src="assets/img/logo.gif" alt="">
+                    </div>
                     <h2 class="main-head">Accountant</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
                     <div>
@@ -81,6 +84,9 @@
                     </div>
                 </div>
                 <div class="open-items">
+                    <div class="logo">
+                        <img src="assets/img/logo.gif" alt="">
+                    </div>
                     <h2 class="main-head">Accountant</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
                     <div>
@@ -93,6 +99,24 @@
                     </div>
                 </div>
                 <div class="open-items">
+                    <div class="logo">
+                        <img src="assets/img/logo.gif" alt="">
+                    </div>
+                    <h2 class="main-head">Accountant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
+                    <div>
+                        <p>Experience :<span class="career-bold"> 0-3 Year</span></p>
+                        <p>No. of Vacancy :<span class="career-bold"> 2</span></p>
+                        <p>Job Type :<span class="career-bold"> Full Time</span></p>
+                    </div>
+                    <div class="apply-div">
+                        <button class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+                <div class="open-items">
+                    <div class="logo">
+                        <img src="assets/img/logo.gif" alt="">
+                    </div>
                     <h2 class="main-head">Accountant</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi?</p>
                     <div>
@@ -114,9 +138,12 @@
 
 
     <section id="applysection">
-        <div class="container">
+        <div class="modal-main">
             <div class="formsection">
-                <h3 class="main-head mb-lg-4 mb-md-4 mb-3">Join Our Team..!</h3>
+                <div class="modal-head">
+                    <h3 class="main-head mb-lg-4 mb-md-4 mb-3">Join Our Team..!</h3>
+                    <i class="fa-solid fa-xmark close"></i>
+                </div>
                 <form action="">
                     <div class="row g-4">
                         <div class="col-lg-4 col-md-6 col-12">
@@ -169,6 +196,9 @@
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/modal.js"></script>
 
 </body>
 
