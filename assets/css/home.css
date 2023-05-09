@@ -337,6 +337,7 @@ p
 #aboutsection .left
 {
     padding:60px;
+    overflow: hidden;
 }
 #aboutsection .left .img-div
 {
@@ -521,6 +522,7 @@ p
     background-size: cover;
     background-position:center center;
     padding:140px 20px;
+    overflow: hidden;
     /* border-radius: 20px; */
 }
 #first-cta .cta-box .right
@@ -530,6 +532,7 @@ p
     flex-direction: column;
     justify-content: center;
     gap:20px;
+    overflow: hidden;
 }
 #first-cta .cta-box .right button
 {
@@ -1241,9 +1244,14 @@ p
     }
 }
 
+#abt-contents .abt-cntnt
+{
+    overflow: hidden;
+}
 #abt-contents .abt-cntnt .img-div
 {
     position: relative;
+    overflow: hidden;
 }
 #abt-contents .abt-img-4
 {

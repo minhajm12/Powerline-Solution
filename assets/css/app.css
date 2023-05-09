@@ -58,7 +58,16 @@ h3.side_head{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
-    color: #218dd1;
+}
+.country_name a
+{
+    text-decoration: none;
+    color: var(--logo2);
+    transition: .3s ease;
+}
+.country_name a:hover
+{
+    color: #fff;
 }
 
 .panel_parent_second{
@@ -202,8 +211,9 @@ p{
     .country_name{
         padding: 10px 10px;
         font-size: 16px;
-        font-weight: normal;
+        font-weight: 600;
     }
+
 }
 
 
@@ -249,7 +259,7 @@ p{
 
 #menu__bar{
     position: fixed;
-    right: 60px;
+    right:110px;
     top: 55px;
     font-size: 30px;
     cursor: pointer;
@@ -325,6 +335,11 @@ p{
         top: 34px;
         font-size: 25px;
     }
+    .country-change-icon
+    {
+        top:25px !important;
+        right: 70px !important;
+    }
 }
 
 
@@ -361,8 +376,8 @@ p{
 {
     margin-left: 10px;
     position: fixed;
-    top:48px;
-    right:6%;
+    top:45px;
+    right:3%;
 }
 .country-change-icon i
 {
@@ -430,4 +445,8 @@ p{
     display: flex;
     align-items: center;
     font-size: 14px;
+}
+.dropdown-toggle::after
+{
+    color: #fff;
 }
