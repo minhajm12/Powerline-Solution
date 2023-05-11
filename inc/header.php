@@ -31,7 +31,7 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
                     <li class="nav-item">
-                        <a class="nav-link" href="/powerline-solution/home.php">Home</a>
+                        <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <!-- Navbar dropdown -->
                     <li class="nav-item dropdown position-static">
@@ -273,14 +273,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/powerline-solution/about.php">About Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/powerline-solution/career.php">Career</a>
+                        <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/powerline-solution/contact.php">Contact</a>
+                        <a class="nav-link" href="career.php">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item dropdown position-static countries-list-tab">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
