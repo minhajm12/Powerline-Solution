@@ -11,9 +11,10 @@
 
 body{
     overflow-x: hidden;
-    color: white;
+    color: var(--textcolor);
     font-family: 'Poppins', sans-serif;    
-    background: #01013f;
+    /* background: #01013f; */
+    background: #fff;
 }
 .panel_parent{
     position: relative;
@@ -21,7 +22,7 @@ body{
     width: 100%;
 }
 .bg_parent{
-    background: url('../img/maps.png');
+    background: url('../img/maps.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -39,6 +40,7 @@ h1.main_head{
     text-align: center;
     font-size: 33px;
     margin-bottom: 15px;
+    color: var(--textcolor);
 }
 p.main_para{
     text-align: center;
@@ -67,7 +69,7 @@ h3.side_head{
 }
 .country_name a:hover
 {
-    color: #fff;
+    color: var(--textcolor);
 }
 
 .panel_parent_second{
@@ -113,6 +115,7 @@ h3.side_head{
 }
 p{
     font-size: 10px;
+    color: var(--textcolor);
 }
 
 .bottom__div{
@@ -169,6 +172,7 @@ p{
     /* font-family: 'Playfair Display SC', serif; */
     font-family: 'Raleway', sans-serif;
     z-index: 111;
+    color: var(--textcolor);
 }
 .h1__parent{
     min-height: 50vh;
@@ -259,7 +263,7 @@ p{
 
 #menu__bar{
     position: fixed;
-    right:110px;
+    right:4%;
     top: 55px;
     font-size: 30px;
     cursor: pointer;
@@ -309,7 +313,8 @@ p{
     font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: #c7c7c7;
+    /* color: #c7c7c7; */
+    color: var(--textcolor);
 }
 .about__us p{
     width: 100%;
@@ -317,7 +322,8 @@ p{
     font-weight: lighter;
     font-size: 14px !important;
     text-align: center;
-    color: #bdbdbd;
+    /* color: #bdbdbd; */
+    color: var(--textcolor);
 }
 
 
@@ -377,11 +383,12 @@ p{
     margin-left: 10px;
     position: fixed;
     top:45px;
-    right:3%;
+    right:6%;
 }
 .country-change-icon i
 {
-    color: #fff;
+    /* color: #fff; */
+    color: var(--textcolor);
     font-size: 24px;
     transition: .3s ease;
 }
@@ -446,7 +453,13 @@ p{
     align-items: center;
     font-size: 14px;
 }
+.country-change-icon .dropdown-menu.show
+{
+    border: none;
+    box-shadow: 0 0 10px #00000010;
+}
 .dropdown-toggle::after
 {
-    color: #fff;
+    /* color: #fff; */
+    color: var(--textcolor);
 }
