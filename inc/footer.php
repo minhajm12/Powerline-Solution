@@ -34,7 +34,7 @@
                 <h2>Location</h2>
                 <div>
                     <i class="fa-sharp fa-solid fa-location-dot"></i>
-                    <p>Office No.606, 6 th Floor,<br>Building No-100,<br>Markaz Al-Mana Building, Al Matar Street, P.O Box # 203357 Doha, State of Qatar</p>
+                    <p>Office No.606, 6 th Floor,<br>Building No-100,<br>Markaz Al-Mana Building, Al Matar Street, P.O Box - 203357 Doha, State of Qatar</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-lg-0 my-md-4 my-3 contact" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">

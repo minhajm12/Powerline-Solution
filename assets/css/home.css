@@ -35,6 +35,80 @@ p
 
 }
 
+.powerline-loader
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 299;
+    display: flex;
+}
+.powerline-loader .main-items
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.powerline-loader img
+{
+    width:20%;
+    opacity: 0;
+    animation: loader-fade 6s ease infinite;
+}
+@keyframes loader-fade
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.powerline-loader .powerline-loader-head
+{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* color: var(--logo1); */
+    background: #121FCF;
+    background: linear-gradient(to right, #2e348e 0%, #25aae1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* animation: loader-text-fade 3s ease .5s infinite; */
+    /* opacity: 0; */
+}
+@keyframes loader-text-fade
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+
+
 /* HEADER SECTION */
 .top-header
 {
@@ -62,7 +136,7 @@ p
 #header
 {
     width: 100%;
-    z-index: 999;
+    z-index: 199;
     position: fixed;
 }
 #navbar
@@ -74,7 +148,7 @@ p
     padding:10px 3%;
     display: flex;
     justify-content: space-between;
-    background: #fff;
+    background: transparent;
     /* box-shadow: 0 0 30px #00000010; */
     transition: .3s ease;
 }
@@ -86,6 +160,12 @@ p
 #header .navbar .logo-div
 {
     width: 80px;
+    transition: .3s ease;
+
+}
+.logo-nav-active
+{
+    width: 60px !important;
 }
 #header .navbar .navbar-collapse
 {
@@ -106,7 +186,10 @@ p
     color: var(--logo2) !important;
 }
 
-
+.navbar-collapse .dropdown:hover .dropdown-menu
+{
+    /* display: block; */
+}
 .navbar-collapse .dropdown-menu[data-bs-popper]
 {
     padding: 0 !important;
@@ -206,6 +289,30 @@ p
 }
 
 
+.search-icon-section button
+{
+    background:none;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+.search-icon-section i
+{
+    color: var(--logo1);
+    font-size: 24px;
+    transition: .3s ease;
+}
+.search-icon-section i:hover
+{
+    color: var(--logo2);
+}
+.search-icon-section input
+{
+    padding: 20px 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
 
 
 .navbar-collapse .dropdown-menu .first-col.bsnss
@@ -291,9 +398,9 @@ p
 /* BANNER SECTION */
 #banner
 {
-    background-image: url('../img/banner/banner-4.jpg');
+    background-image: url('../img/banner/banner-image-main.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
@@ -773,7 +880,24 @@ p
 #footersection
 {
     padding:4% 0 0 0;
-    background:linear-gradient(0deg, #e0f6ff, transparent);
+    /* background:linear-gradient(0deg, #e0f6ff, transparent); */
+    background: url('../img/construction-site.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#footersection::after
+{
+    content:'';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.94);
+    z-index: -1;
 }
 #footersection .footer-logo
 {
@@ -831,6 +955,8 @@ p
     background: var(--logo2);
     padding:10px;
     margin-top:20px;
+    z-index: 99;
+    position: relative;
 }
 #footersection .copyright p
 {
@@ -886,11 +1012,36 @@ p
 
 @media only screen and (max-width: 992px)
 {
+    .powerline-loader .main-items
+    {
+        gap:30px;
+    }
+    .powerline-loader .powerline-loader-head
+    {
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .powerline-loader img
+    {
+        width:50%;
+    }
+
+
     #banner .left
     {
         padding:30% 0 0%
     }
 
+    #header .navbar
+    {
+        background: #fff;
+    }
+
+    .search-icon-section
+    {
+        display: none;
+    }
 
     .countries-list-tab
     {
@@ -962,6 +1113,21 @@ p
 
 @media only screen and (max-width: 768px)
 {
+    .powerline-loader .main-items
+    {
+        gap:30px;
+    }
+    .powerline-loader .powerline-loader-head
+    {
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .powerline-loader img
+    {
+        width: 50%;
+    }
+
     #banner .left
     {
         padding:10% 20px 0;
@@ -1116,6 +1282,14 @@ p
     {
         font-size: 12px;
     }
+}
+
+@media only screen and (max-width: 380px)
+{
+    .powerline-loader .powerline-loader-head
+    {
+        font-size: 24px;
+    }   
 }
 
 
@@ -1990,4 +2164,49 @@ p
     {
         
     }
+}
+
+
+
+
+
+
+/* SERVICE PAGE */
+.service-banner
+{
+    height:60vh;
+    background: url('../img/banner/service-banner.jpg') top no-repeat;
+    background-size: cover;
+}
+.service-banner .container
+{
+    height: 100%;
+}
+.service-banner-inner
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.service-banner-inner h1
+{
+    color: var(--textcolor);
+    margin-top:40px;
+}
+
+
+.service-items
+{
+    padding:40px;
+}
+.service-items .items-main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.service-items .items-main h1
+{
+    text-align: center;
 }

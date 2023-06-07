@@ -30,6 +30,13 @@
 
     <div id="main">
 
+        <div id="powerline-loader" class="powerline-loader">
+            <div class="main-items">
+                <img src="assets/img/logo-top.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="powerline-loader-head" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">Welcome To Powerline Solutions</p>
+            </div>
+        </div>
+
         <?php include 'inc/header.php'; ?>
 
         <div id="banner">
@@ -42,7 +49,7 @@
                         <a href="" class="main-btn">Read More</a>
                     </div>
                     <div class="col-lg-6 right order-lg-2 order-1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                        <img src="assets/img/banner/banner-img-2.png" class="img-fluid" alt="">
+                        <!-- <img src="assets/img/banner/banner-img-2.png" class="img-fluid" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -55,7 +62,7 @@
                     <div class="col-lg-6 left">
                         <div class="img-div">
                             <img src="assets/img/about-section/abt-img-1.png" alt="" class="abt-img-1 img-fluid" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="assets/img/about-section/abt-img-2.png" alt="" class="abt-img-2 img-fluid" data-aos="fade-left"  data-aos-delay="400" data-aos-duration="1000">
+                            <img src="assets/img/about-section/abt-img-2.png" alt="" class="abt-img-2 img-fluid" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
                             <img src="assets/img/about-section/abt-img-3.png" alt="" class="abt-img-3 img-fluid" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
                         </div>
                     </div>
@@ -177,7 +184,7 @@
                         <div class="col-lg-6 col-md-6 col-12 left">
 
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12 right" data-aos="fade-left"  data-aos-delay="400" data-aos-duration="1000">
+                        <div class="col-lg-6 col-md-6 col-12 right" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
                             <!-- <img src="assets/img/service-card-1.jpg" class="img-fluid" alt=""> -->
                             <h3>Connect With Us</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis dolorum facilis vel.</p>

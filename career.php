@@ -166,7 +166,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 d-flex upload">
                             <label for="" class="upload-resume">Upload Resume</label>
-                            <input type="file" id="" name="" style="border:none;z-index:2;opacity:0;">
+                            <input type="file" id="" name="" accept="application/pdf" style="border:none;z-index:2;opacity:0;">
                         </div>
                         <div class="career-btn-div">
                             <button class="career-btn mt-3">Apply Now</button>

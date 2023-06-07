@@ -61,69 +61,6 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-md-6 col-xl-3 mb-3 mb-xl-0">
-                                                <div class="pt-2">
-                                                    <p class="text-uppercase font-weight-bold">
-                                                        Explicabo voluptas
-                                                    </p>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/power-lines.jpg" class="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/hydraulics.jpeg" class="img-fluid shadow-1-strong rounded" alt="Palm Springs" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Los Angeles Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="" class="text-dark">
-                                                        <div class="row mb-4 border-bottom pb-2">
-                                                            <div class="col-3">
-                                                                <img src="assets/img/mega-menu/Industrial-automation-main.jpg" class="img-fluid shadow-1-strong rounded" alt="Skyscrapers" />
-                                                            </div>
-                                                            <div class="col-9">
-                                                                <p class="mb-2">
-                                                                    <strong>Lorem ipsum dolor sit
-                                                                        amet</strong>
-                                                                </p>
-                                                                <p><u>15.07.2020</u></p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div> -->
                                     <div class="col-md-6 col-xl-4 mb-lg-3 mb-md-0 mb-0 scnd-col">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
@@ -276,7 +213,13 @@
                         <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="service.php">Services</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="career.php">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
@@ -306,6 +249,17 @@
                     </li>
 
                 </ul>
+
+                <div class="search-icon-section p-2">
+                    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <ul class="dropdown-menu country-dropdown">
+                        <li>
+                            <input type="text" class="" placeholder="Search Here">
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="country-change-icon">
 
