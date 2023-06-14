@@ -10,11 +10,8 @@
                     <a href="home.php">
                         <li>Home</li>
                     </a>
-                    <a href="">
-                        <li>Projects</li>
-                    </a>
-                    <a href="">
-                        <li>Business Solution</li>
+                    <a href="service.php">
+                        <li>Service</li>
                     </a>
                     <a href="">
                         <li>Products</li>
