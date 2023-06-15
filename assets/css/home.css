@@ -2170,6 +2170,11 @@ p
 
 
 
+
+
+
+
+
 /* SERVICE PAGE */
 .service-banner
 {
@@ -2269,3 +2274,193 @@ p
 {
     width: 60%;
 }
+
+
+
+
+
+
+
+
+
+
+/* Service Single Page */
+#service-single-main
+{
+    padding:140px 0 80px;
+}
+#service-single-main h1
+{
+    font-weight: 700;
+    margin-bottom:20px;
+
+}
+#service-single-main p
+{
+    margin-bottom:10px;
+}
+#service-single-main img
+{
+    border-radius: 5px;
+}
+#service-single-main .before
+{
+    left: 20px;
+    top:20px;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(45deg , #2e348e 0%, #25aae1 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.side-tab
+{
+    position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.make-sticky
+{
+    position:-webkit-sticky;
+	position: sticky;
+	top: 100px;
+}
+
+
+
+#service-list-items
+{
+    padding-bottom:40px;
+}
+#service-list-items ul,
+#service-single-list ul
+{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+#service-list-items li,
+#service-single-list li
+{
+    list-style-type:none;
+    /* margin-top: 15px; */
+    position: relative;
+    line-height: 18px;
+}
+.list-img
+{
+    width: 20px;
+    position: absolute;
+    left: -30px;
+    top:0px;
+}
+#service-list-items img
+{
+    border-radius: 5px;
+}
+
+
+
+
+#service-single-list
+{
+    padding:80px 0;
+}
+#service-single-list h2
+{
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+#service-single-list .nav-link
+{
+    text-align: left;
+    border-radius: 0 !important;
+    color: var(--logo1);
+    background:#25a9e134;
+    padding:15px 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+#service-single-list .nav-link:hover
+{
+    background: var(--logo2);
+    color: #fff;
+}
+#service-single-list .nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background: var(--logo1);
+    color: #fff;
+}
+#service-single-list .tab-content .tab-pane
+{
+    padding-left:60px;
+}
+#service-single-list .tab-content .tab-pane h5
+{
+    font-weight: 600;
+}
+#service-single-list .tab-content ul
+{
+    margin:20px 0;
+}
+
+@media only screen and (max-width: 992px)
+{
+    #service-single-main
+    {
+        padding:80px 0 40px 0;
+    }
+    #service-single-list
+    {
+        padding: 40px 0 40px;
+    }
+    #service-single-list .tab-content .tab-pane
+    {
+        padding-left:20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #service-single-main
+    {
+        padding:110px 10px 40px 10px;
+    }
+    #service-single-main h1
+    {
+        margin-top:20px;
+    }
+    #service-list-items
+    {
+        padding:0 10px;
+    }
+    #service-single-list
+    {
+        padding:20px;
+    }
+    .make-sticky
+    {
+        position: relative;
+        top:0;
+        padding: 0;
+    }
+    #service-single-list .tab-content
+    {
+        padding: 20px 0;
+    }
+    #service-single-list .tab-content .tab-pane
+    {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
