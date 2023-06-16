@@ -33,7 +33,7 @@
         <div class="service-banner">
             <div class="container">
                 <div class="service-banner-inner">
-                    <h1 class="main-head">Our Services</h1>
+                    <h1 class="main-head" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Our Services</h1>
                 </div>
             </div>
         </div>
@@ -41,122 +41,122 @@
         <div class="service-items">
             <div class="container">
                 <div class="items-main">
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="" data-aos-duration="1000">
                         <img src="assets/img//service-img/epc.jpg" alt="">
                         <div class="srv-details">
                             <h2>EPC</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img//service-img/interior.jpg" alt="">
                         <div class="srv-details">
                             <h2>Interior Projects</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
                         <img src="assets/img//service-img/power-backup.jpg" alt="">
                         <div class="srv-details">
                             <h2>Power Backup</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="" data-aos-duration="1000">
                         <img src="assets/img//service-img/power-systems.jpg" alt="">
                         <div class="srv-details">
                             <h2>Power System Services</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img//service-img/hydraulics.webp" alt="">
                         <div class="srv-details">
                             <h2>Hydraulics and Pneumantics</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
                         <img src="assets/img//service-img/oil-and-gas.jpg" alt="">
                         <div class="srv-details">
                             <h2>Oil & Gas</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="" data-aos-duration="1000">
                         <img src="assets/img//service-img/polymer-division1.jpg" alt="">
                         <div class="srv-details">
                             <h2>Polymer and Rubber Division</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img//service-img/power-quality.jpg" alt="">
                         <div class="srv-details">
                             <h2>Power Quality</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
                         <img src="assets/img//service-img/industrial automation.jpg" alt="">
                         <div class="srv-details">
                             <h2>Industrial Automation</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="" data-aos-duration="1000">
                         <img src="assets/img//service-img/industrial-drives.jpg" alt="">
                         <div class="srv-details">
                             <h2>Industrial Drive</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="srv-item">
+                    <div class="srv-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                         <img src="assets/img//service-img/medical-division.jpg" alt="">
                         <div class="srv-details">
                             <h2>Medical</h2>
                             <p>Engineering, Procurement, and Construction of Civil, Mechanical, Electrical, Instrumentation, Controls and Automation disciplines.</p>
-                            <a href="#" class="srv-btn">View Service</a>
+                            <a href="service-single-page.php" class="srv-btn">View Service</a>
                             <div>
                                 <img src="assets/img/logo-top.png" alt="">
                             </div>
@@ -168,6 +168,9 @@
 
     </div>
 
+    <!-- CONTACT SECTION -->
+    <?php include 'inc/contact-cta.php'; ?>
+    <!-- CONTACT SECTION END -->
 
     <!-- FOOTER SECTION -->
     <?php include 'inc/footer.php'; ?>
